@@ -1,0 +1,3912 @@
+fileFormatVersion: 2
+guid: 9479ab4b6d12fb54fbb4b10c98071b38
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: model:AimEye
+  - first:
+      1: 100002
+    second: model:AimFollowEye
+  - first:
+      1: 100004
+    second: model:AimFollowOffEye
+  - first:
+      1: 100006
+    second: model:AimFollowOnEye
+  - first:
+      1: 100008
+    second: model:AimOffsetEye
+  - first:
+      1: 100010
+    second: model:AimSystem
+  - first:
+      1: 100012
+    second: model:AlignIKToWrist_L
+  - first:
+      1: 100014
+    second: model:Ankle
+  - first:
+      1: 100016
+    second: model:Ankle_L
+  - first:
+      1: 100018
+    second: model:Ankle_R
+  - first:
+      1: 100020
+    second: model:BendSystem
+  - first:
+      1: 100022
+    second: model:Chest
+  - first:
+      1: 100024
+    second: model:Chest_M
+  - first:
+      1: 100026
+    second: model:ConstraintSystem
+  - first:
+      1: 100028
+    second: model:DeformationSystem
+  - first:
+      1: 100030
+    second: model:DrivingSystem
+  - first:
+      1: 100032
+    second: model:DynamicSystem
+  - first:
+      1: 100034
+    second: model:Elbow
+  - first:
+      1: 100036
+    second: model:Elbow_L
+  - first:
+      1: 100038
+    second: model:Elbow_R
+  - first:
+      1: 100040
+    second: model:Eye
+  - first:
+      1: 100042
+    second: model:EyeEnd
+  - first:
+      1: 100044
+    second: model:FitSkeleton
+  - first:
+      1: 100046
+    second: model:FKElbow_L
+  - first:
+      1: 100048
+    second: model:FKExtraElbow_L
+  - first:
+      1: 100050
+    second: model:FKExtraHip_L
+  - first:
+      1: 100052
+    second: model:FKExtraHip_R
+  - first:
+      1: 100054
+    second: model:FKExtraIndexFinger1_L
+  - first:
+      1: 100056
+    second: model:FKExtraIndexFinger1_R
+  - first:
+      1: 100058
+    second: model:FKExtraMiddleFinger1_L
+  - first:
+      1: 100060
+    second: model:FKExtraMiddleFinger1_R
+  - first:
+      1: 100062
+    second: model:FKExtraNeck_M
+  - first:
+      1: 100064
+    second: model:FKExtraPinkyFinger1_L
+  - first:
+      1: 100066
+    second: model:FKExtraPinkyFinger1_R
+  - first:
+      1: 100068
+    second: model:FKExtraRingFinger1_L
+  - first:
+      1: 100070
+    second: model:FKExtraRingFinger1_R
+  - first:
+      1: 100072
+    second: model:FKExtraRoot_M
+  - first:
+      1: 100074
+    second: model:FKExtraScapula_L
+  - first:
+      1: 100076
+    second: model:FKExtraScapula_R
+  - first:
+      1: 100078
+    second: model:FKExtraShoulder_L
+  - first:
+      1: 100080
+    second: model:FKExtraShoulder_R
+  - first:
+      1: 100082
+    second: model:FKExtraThumbFinger1_L
+  - first:
+      1: 100084
+    second: model:FKExtraThumbFinger1_R
+  - first:
+      1: 100086
+    second: model:FKExtraWrist_L
+  - first:
+      1: 100088
+    second: model:FKIKMixElbow_L
+  - first:
+      1: 100090
+    second: model:FKIKMixElbow_R
+  - first:
+      1: 100092
+    second: model:FKIKParentConstraintArm_L
+  - first:
+      1: 100094
+    second: model:FKIKParentConstraintArm_R
+  - first:
+      1: 100096
+    second: model:FKIKParentConstraintLeg_L
+  - first:
+      1: 100098
+    second: model:FKIKParentConstraintLeg_R
+  - first:
+      1: 100100
+    second: model:FKIKParentConstraintSpine_M
+  - first:
+      1: 100102
+    second: model:FKIKSystem
+  - first:
+      1: 100104
+    second: model:FKOffsetElbow_L
+  - first:
+      1: 100106
+    second: model:FKOffsetHip_L
+  - first:
+      1: 100108
+    second: model:FKOffsetHip_R
+  - first:
+      1: 100110
+    second: model:FKOffsetIndexFinger1_L
+  - first:
+      1: 100112
+    second: model:FKOffsetIndexFinger1_R
+  - first:
+      1: 100114
+    second: model:FKOffsetMiddleFinger1_L
+  - first:
+      1: 100116
+    second: model:FKOffsetMiddleFinger1_R
+  - first:
+      1: 100118
+    second: model:FKOffsetNeck_M
+  - first:
+      1: 100120
+    second: model:FKOffsetPinkyFinger1_L
+  - first:
+      1: 100122
+    second: model:FKOffsetPinkyFinger1_R
+  - first:
+      1: 100124
+    second: model:FKOffsetRingFinger1_L
+  - first:
+      1: 100126
+    second: model:FKOffsetRingFinger1_R
+  - first:
+      1: 100128
+    second: model:FKOffsetRoot_M
+  - first:
+      1: 100130
+    second: model:FKOffsetScapula_L
+  - first:
+      1: 100132
+    second: model:FKOffsetScapula_R
+  - first:
+      1: 100134
+    second: model:FKOffsetShoulder_L
+  - first:
+      1: 100136
+    second: model:FKOffsetShoulder_R
+  - first:
+      1: 100138
+    second: model:FKOffsetThumbFinger1_L
+  - first:
+      1: 100140
+    second: model:FKOffsetThumbFinger1_R
+  - first:
+      1: 100142
+    second: model:FKOffsetWrist_L
+  - first:
+      1: 100144
+    second: model:FKParentConstraintToChest_M
+  - first:
+      1: 100146
+    second: model:FKParentConstraintToRoot_M
+  - first:
+      1: 100148
+    second: model:FKParentConstraintToScapula_L
+  - first:
+      1: 100150
+    second: model:FKParentConstraintToScapula_R
+  - first:
+      1: 100152
+    second: model:FKParentConstraintToWrist_L
+  - first:
+      1: 100154
+    second: model:FKParentConstraintToWrist_R
+  - first:
+      1: 100156
+    second: model:FKShoulder_L
+  - first:
+      1: 100158
+    second: model:FKSystem
+  - first:
+      1: 100160
+    second: model:FKWrist_L
+  - first:
+      1: 100162
+    second: model:FKXElbow_L
+  - first:
+      1: 100164
+    second: model:FKXShoulder_L
+  - first:
+      1: 100166
+    second: model:FKXWrist_L
+  - first:
+      1: 100168
+    second: model:Geometry
+  - first:
+      1: 100170
+    second: model:GlobalHead_M
+  - first:
+      1: 100172
+    second: model:GlobalOffsetHead_M
+  - first:
+      1: 100174
+    second: model:GlobalSystem
+  - first:
+      1: 100176
+    second: model:Group
+  - first:
+      1: 100178
+    second: model:Head
+  - first:
+      1: 100180
+    second: model:Head_M
+  - first:
+      1: 100182
+    second: model:HeadEnd
+  - first:
+      1: 100184
+    second: model:HeadEnd_M
+  - first:
+      1: 100186
+    second: model:Heel
+  - first:
+      1: 100188
+    second: model:Hip
+  - first:
+      1: 100190
+    second: model:Hip_L
+  - first:
+      1: 100192
+    second: model:Hip_R
+  - first:
+      1: 100194
+    second: model:IKAnkleHandle_L
+  - first:
+      1: 100196
+    second: model:IKAnkleHandle_R
+  - first:
+      1: 100198
+    second: model:IKCurve
+  - first:
+      1: 100200
+    second: model:IKdistanceArm_L
+  - first:
+      1: 100202
+    second: model:IKdistanceArm_R
+  - first:
+      1: 100204
+    second: model:IKdistanceLeg_L
+  - first:
+      1: 100206
+    second: model:IKdistanceLeg_R
+  - first:
+      1: 100208
+    second: model:IKExtraArm_L
+  - first:
+      1: 100210
+    second: model:IKExtraArm_R
+  - first:
+      1: 100212
+    second: model:IKExtraLeg_L
+  - first:
+      1: 100214
+    second: model:IKExtraLeg_R
+  - first:
+      1: 100216
+    second: model:IKExtraSpine1_M
+  - first:
+      1: 100218
+    second: model:IKExtraSpine2_M
+  - first:
+      1: 100220
+    second: model:IKfake0Spine_M
+  - first:
+      1: 100222
+    second: model:IKfake1Spine_M
+  - first:
+      1: 100224
+    second: model:IKFake1UpLocSpine_M
+  - first:
+      1: 100226
+    second: model:IKfake2Spine_M
+  - first:
+      1: 100228
+    second: model:IKfake3Spine_M
+  - first:
+      1: 100230
+    second: model:IKFKAlignedLeg_L
+  - first:
+      1: 100232
+    second: model:IKFKAlignedLeg_R
+  - first:
+      1: 100234
+    second: model:IKFKAlignedOffsetLeg_L
+  - first:
+      1: 100236
+    second: model:IKFKAlignedOffsetLeg_R
+  - first:
+      1: 100238
+    second: model:IKFollow
+  - first:
+      1: 100240
+    second: model:IKHandle
+  - first:
+      1: 100242
+    second: model:IKJoints
+  - first:
+      1: 100244
+    second: model:IKLeg_L
+  - first:
+      1: 100246
+    second: model:IKLeg_R
+  - first:
+      1: 100248
+    second: model:IKLegFootRoll_L
+  - first:
+      1: 100250
+    second: model:IKLegFootRoll_R
+  - first:
+      1: 100252
+    second: model:IKLegHandle_L
+  - first:
+      1: 100254
+    second: model:IKLegHandle_R
+  - first:
+      1: 100256
+    second: model:IKLegLiftToe_L
+  - first:
+      1: 100258
+    second: model:IKLegLiftToe_R
+  - first:
+      1: 100260
+    second: model:IKMessure
+  - first:
+      1: 100262
+    second: model:IKmessureConstrainToLeg_L
+  - first:
+      1: 100264
+    second: model:IKmessureConstrainToLeg_R
+  - first:
+      1: 100266
+    second: model:IKMessureFromHip_L
+  - first:
+      1: 100268
+    second: model:IKMessureFromHip_R
+  - first:
+      1: 100270
+    second: model:IKMessureFromShoulder_L
+  - first:
+      1: 100272
+    second: model:IKMessureFromShoulder_R
+  - first:
+      1: 100274
+    second: model:IKmessureLoc1Arm_L
+  - first:
+      1: 100276
+    second: model:IKmessureLoc1Arm_R
+  - first:
+      1: 100278
+    second: model:IKmessureLoc1Leg_L
+  - first:
+      1: 100280
+    second: model:IKmessureLoc1Leg_R
+  - first:
+      1: 100282
+    second: model:IKmessureLoc2Arm_L
+  - first:
+      1: 100284
+    second: model:IKmessureLoc2Arm_R
+  - first:
+      1: 100286
+    second: model:IKmessureLoc2Leg_L
+  - first:
+      1: 100288
+    second: model:IKmessureLoc2Leg_R
+  - first:
+      1: 100290
+    second: model:IKOffsetArm_L
+  - first:
+      1: 100292
+    second: model:IKOffsetArm_LFollow
+  - first:
+      1: 100294
+    second: model:IKOffsetArm_LFollowNoScale
+  - first:
+      1: 100296
+    second: model:IKOffsetArm_LStatic
+  - first:
+      1: 100298
+    second: model:IKOffsetArm_R
+  - first:
+      1: 100300
+    second: model:IKOffsetArm_RFollow
+  - first:
+      1: 100302
+    second: model:IKOffsetArm_RFollowNoScale
+  - first:
+      1: 100304
+    second: model:IKOffsetArm_RStatic
+  - first:
+      1: 100306
+    second: model:IKOffsetLeg_L
+  - first:
+      1: 100308
+    second: model:IKOffsetLeg_R
+  - first:
+      1: 100310
+    second: model:IKOffsetSpine1_M
+  - first:
+      1: 100312
+    second: model:IKOffsetSpine2_M
+  - first:
+      1: 100314
+    second: model:IKParentConstraintHip_L
+  - first:
+      1: 100316
+    second: model:IKParentConstraintHip_R
+  - first:
+      1: 100318
+    second: model:IKParentConstraintRoot_M
+  - first:
+      1: 100320
+    second: model:IKParentConstraintShoulder_L
+  - first:
+      1: 100322
+    second: model:IKParentConstraintShoulder_R
+  - first:
+      1: 100324
+    second: model:IKRootConstraint
+  - first:
+      1: 100326
+    second: model:IKScalerChest_M
+  - first:
+      1: 100328
+    second: model:IKScalerRoot_M
+  - first:
+      1: 100330
+    second: model:IKScalerSpine1_M
+  - first:
+      1: 100332
+    second: model:IKSpChest_M
+  - first:
+      1: 100334
+    second: model:IKSpChestFollowOffset_M
+  - first:
+      1: 100336
+    second: model:IKSpine0AlignTo_M
+  - first:
+      1: 100338
+    second: model:IKSpine1_M
+  - first:
+      1: 100340
+    second: model:IKSpine2_M
+  - first:
+      1: 100342
+    second: model:IKSpine2AlignTo_M
+  - first:
+      1: 100344
+    second: model:IKSpine2AlignUnIKTwistTo_M
+  - first:
+      1: 100346
+    second: model:IKSpine2AlignUnIKTwistToOffset_M
+  - first:
+      1: 100348
+    second: model:IKSpineCurve_M
+  - first:
+      1: 100350
+    second: model:IKSpineHandle_M
+  - first:
+      1: 100352
+    second: model:IKSpineLocator0_M
+  - first:
+      1: 100354
+    second: model:IKSpineLocator1_M
+  - first:
+      1: 100356
+    second: model:IKSpineLocator2_M
+  - first:
+      1: 100358
+    second: model:IKSpineLocator3_M
+  - first:
+      1: 100360
+    second: model:IKSpRoot_M
+  - first:
+      1: 100362
+    second: model:IKSpRootFollowOffset_M
+  - first:
+      1: 100364
+    second: model:IKSpSpine1_M
+  - first:
+      1: 100366
+    second: model:IKSpSpine1FollowOffset_M
+  - first:
+      1: 100368
+    second: model:IKSpSpineOffset_M
+  - first:
+      1: 100370
+    second: model:IKStatic
+  - first:
+      1: 100372
+    second: model:IKStiffOrientSpine1_M
+  - first:
+      1: 100374
+    second: model:IKStiffOrientSpine2_M
+  - first:
+      1: 100376
+    second: model:IKSystem
+  - first:
+      1: 100378
+    second: model:IKToesHandle_L
+  - first:
+      1: 100380
+    second: model:IKToesHandle_R
+  - first:
+      1: 100382
+    second: model:IKX2Ankle_L
+  - first:
+      1: 100384
+    second: model:IKX2Ankle_R
+  - first:
+      1: 100386
+    second: model:IKX2Chest_M
+  - first:
+      1: 100388
+    second: model:IKX2Elbow_L
+  - first:
+      1: 100390
+    second: model:IKX2Elbow_R
+  - first:
+      1: 100392
+    second: model:IKX2Hip_L
+  - first:
+      1: 100394
+    second: model:IKX2Hip_R
+  - first:
+      1: 100396
+    second: model:IKX2Knee_L
+  - first:
+      1: 100398
+    second: model:IKX2Knee_R
+  - first:
+      1: 100400
+    second: model:IKX2Root_M
+  - first:
+      1: 100402
+    second: model:IKX2Shoulder_L
+  - first:
+      1: 100404
+    second: model:IKX2Shoulder_R
+  - first:
+      1: 100406
+    second: model:IKX2Spine1_M
+  - first:
+      1: 100408
+    second: model:IKX2Toes_L
+  - first:
+      1: 100410
+    second: model:IKX2Toes_R
+  - first:
+      1: 100412
+    second: model:IKX2ToesEnd_L
+  - first:
+      1: 100414
+    second: model:IKX2ToesEnd_R
+  - first:
+      1: 100416
+    second: model:IKX2Wrist_L
+  - first:
+      1: 100418
+    second: model:IKX2Wrist_R
+  - first:
+      1: 100420
+    second: model:IKXAnkle_L
+  - first:
+      1: 100422
+    second: model:IKXAnkle_R
+  - first:
+      1: 100424
+    second: model:IKXChest_M
+  - first:
+      1: 100426
+    second: model:IKXElbow_L
+  - first:
+      1: 100428
+    second: model:IKXElbow_R
+  - first:
+      1: 100430
+    second: model:IKXHip_L
+  - first:
+      1: 100432
+    second: model:IKXHip_R
+  - first:
+      1: 100434
+    second: model:IKXKnee_L
+  - first:
+      1: 100436
+    second: model:IKXKnee_R
+  - first:
+      1: 100438
+    second: model:IKXOffsetHip_L
+  - first:
+      1: 100440
+    second: model:IKXOffsetHip_R
+  - first:
+      1: 100442
+    second: model:IKXOffsetRoot_M
+  - first:
+      1: 100444
+    second: model:IKXOffsetShoulder_L
+  - first:
+      1: 100446
+    second: model:IKXOffsetShoulder_R
+  - first:
+      1: 100448
+    second: model:IKXRoot_M
+  - first:
+      1: 100450
+    second: model:IKXShoulder_L
+  - first:
+      1: 100452
+    second: model:IKXShoulder_R
+  - first:
+      1: 100454
+    second: model:IKXSpine1_M
+  - first:
+      1: 100456
+    second: model:IKXToes_L
+  - first:
+      1: 100458
+    second: model:IKXToes_R
+  - first:
+      1: 100460
+    second: model:IKXToesEnd_L
+  - first:
+      1: 100462
+    second: model:IKXToesEnd_R
+  - first:
+      1: 100464
+    second: model:IKXWrist_L
+  - first:
+      1: 100466
+    second: model:IKXWrist_R
+  - first:
+      1: 100468
+    second: model:IndexFinger1
+  - first:
+      1: 100470
+    second: model:IndexFinger1_L
+  - first:
+      1: 100472
+    second: model:IndexFinger1_R
+  - first:
+      1: 100474
+    second: model:IndexFinger2
+  - first:
+      1: 100476
+    second: model:IndexFinger2_L
+  - first:
+      1: 100478
+    second: model:IndexFinger2_R
+  - first:
+      1: 100480
+    second: model:IndexFinger3
+  - first:
+      1: 100482
+    second: model:IndexFinger3_L
+  - first:
+      1: 100484
+    second: model:IndexFinger3_R
+  - first:
+      1: 100486
+    second: model:IndexFinger4
+  - first:
+      1: 100488
+    second: model:IndexFinger4_L
+  - first:
+      1: 100490
+    second: model:IndexFinger4_R
+  - first:
+      1: 100492
+    second: model:Jaw
+  - first:
+      1: 100494
+    second: model:Jaw_M
+  - first:
+      1: 100496
+    second: model:JawEnd
+  - first:
+      1: 100498
+    second: model:JawEnd_M
+  - first:
+      1: 100500
+    second: model:jnt_eye
+  - first:
+      1: 100502
+    second: model:jnt_eyeR
+  - first:
+      1: 100504
+    second: model:joint1
+  - first:
+      1: 100506
+    second: model:joint2
+  - first:
+      1: 100508
+    second: model:joint3
+  - first:
+      1: 100510
+    second: model:joint4
+  - first:
+      1: 100512
+    second: model:joint5
+  - first:
+      1: 100514
+    second: model:joint6
+  - first:
+      1: 100516
+    second: model:Knee
+  - first:
+      1: 100518
+    second: model:Knee_L
+  - first:
+      1: 100520
+    second: model:Knee_R
+  - first:
+      1: 100522
+    second: model:LegLockConstrained
+  - first:
+      1: 100524
+    second: model:Main
+  - first:
+      1: 100526
+    second: model:MiddleFinger1
+  - first:
+      1: 100528
+    second: model:MiddleFinger1_L
+  - first:
+      1: 100530
+    second: model:MiddleFinger1_R
+  - first:
+      1: 100532
+    second: model:MiddleFinger2
+  - first:
+      1: 100534
+    second: model:MiddleFinger2_L
+  - first:
+      1: 100536
+    second: model:MiddleFinger2_R
+  - first:
+      1: 100538
+    second: model:MiddleFinger3
+  - first:
+      1: 100540
+    second: model:MiddleFinger3_L
+  - first:
+      1: 100542
+    second: model:MiddleFinger3_R
+  - first:
+      1: 100544
+    second: model:MiddleFinger4
+  - first:
+      1: 100546
+    second: model:MiddleFinger4_L
+  - first:
+      1: 100548
+    second: model:MiddleFinger4_R
+  - first:
+      1: 100550
+    second: model:MotionSystem
+  - first:
+      1: 100552
+    second: model:Neck
+  - first:
+      1: 100554
+    second: model:Neck_M
+  - first:
+      1: 100556
+    second: model:PinkyFinger1
+  - first:
+      1: 100558
+    second: model:PinkyFinger1_L
+  - first:
+      1: 100560
+    second: model:PinkyFinger1_R
+  - first:
+      1: 100562
+    second: model:PinkyFinger2
+  - first:
+      1: 100564
+    second: model:PinkyFinger2_L
+  - first:
+      1: 100566
+    second: model:PinkyFinger2_R
+  - first:
+      1: 100568
+    second: model:PinkyFinger3
+  - first:
+      1: 100570
+    second: model:PinkyFinger3_L
+  - first:
+      1: 100572
+    second: model:PinkyFinger3_R
+  - first:
+      1: 100574
+    second: model:PinkyFinger4
+  - first:
+      1: 100576
+    second: model:PinkyFinger4_L
+  - first:
+      1: 100578
+    second: model:PinkyFinger4_R
+  - first:
+      1: 100580
+    second: model:PoleAimLeg_L
+  - first:
+      1: 100582
+    second: model:PoleAimLeg_R
+  - first:
+      1: 100584
+    second: model:PoleAnnotationArm_L
+  - first:
+      1: 100586
+    second: model:PoleAnnotationArm_R
+  - first:
+      1: 100588
+    second: model:PoleAnnotationLeg_L
+  - first:
+      1: 100590
+    second: model:PoleAnnotationLeg_R
+  - first:
+      1: 100592
+    second: model:PoleArm_L
+  - first:
+      1: 100594
+    second: model:PoleArm_R
+  - first:
+      1: 100596
+    second: model:PoleExtraArm_L
+  - first:
+      1: 100598
+    second: model:PoleExtraArm_R
+  - first:
+      1: 100600
+    second: model:PoleExtraLeg_L
+  - first:
+      1: 100602
+    second: model:PoleExtraLeg_R
+  - first:
+      1: 100604
+    second: model:PoleLeg_L
+  - first:
+      1: 100606
+    second: model:PoleLeg_R
+  - first:
+      1: 100608
+    second: model:PoleOffsetArm_L
+  - first:
+      1: 100610
+    second: model:PoleOffsetArm_LStatic
+  - first:
+      1: 100612
+    second: model:PoleOffsetArm_R
+  - first:
+      1: 100614
+    second: model:PoleOffsetArm_RStatic
+  - first:
+      1: 100616
+    second: model:PoleOffsetLeg_L
+  - first:
+      1: 100618
+    second: model:PoleOffsetLeg_LFollow
+  - first:
+      1: 100620
+    second: model:PoleOffsetLeg_LFollowNoScale
+  - first:
+      1: 100622
+    second: model:PoleOffsetLeg_LStatic
+  - first:
+      1: 100624
+    second: model:PoleOffsetLeg_R
+  - first:
+      1: 100626
+    second: model:PoleOffsetLeg_RFollow
+  - first:
+      1: 100628
+    second: model:PoleOffsetLeg_RFollowNoScale
+  - first:
+      1: 100630
+    second: model:PoleOffsetLeg_RStatic
+  - first:
+      1: 100632
+    second: model:polySurface11
+  - first:
+      1: 100634
+    second: model:polySurface12
+  - first:
+      1: 100636
+    second: model:polySurface13
+  - first:
+      1: 100638
+    second: model:polySurface15
+  - first:
+      1: 100640
+    second: model:polySurface16
+  - first:
+      1: 100642
+    second: model:polySurface8
+  - first:
+      1: 100644
+    second: model:polySurface9
+  - first:
+      1: 100646
+    second: model:RingFinger1
+  - first:
+      1: 100648
+    second: model:RingFinger1_L
+  - first:
+      1: 100650
+    second: model:RingFinger1_R
+  - first:
+      1: 100652
+    second: model:RingFinger2
+  - first:
+      1: 100654
+    second: model:RingFinger2_L
+  - first:
+      1: 100656
+    second: model:RingFinger2_R
+  - first:
+      1: 100658
+    second: model:RingFinger3
+  - first:
+      1: 100660
+    second: model:RingFinger3_L
+  - first:
+      1: 100662
+    second: model:RingFinger3_R
+  - first:
+      1: 100664
+    second: model:RingFinger4
+  - first:
+      1: 100666
+    second: model:RingFinger4_L
+  - first:
+      1: 100668
+    second: model:RingFinger4_R
+  - first:
+      1: 100670
+    second: model:RollExtraHeel_L
+  - first:
+      1: 100672
+    second: model:RollExtraHeel_R
+  - first:
+      1: 100674
+    second: model:RollExtraToes_L
+  - first:
+      1: 100676
+    second: model:RollExtraToes_R
+  - first:
+      1: 100678
+    second: model:RollExtraToesEnd_L
+  - first:
+      1: 100680
+    second: model:RollExtraToesEnd_R
+  - first:
+      1: 100682
+    second: model:RollHeel_L
+  - first:
+      1: 100684
+    second: model:RollHeel_R
+  - first:
+      1: 100686
+    second: model:RollOffsetHeel_L
+  - first:
+      1: 100688
+    second: model:RollOffsetHeel_R
+  - first:
+      1: 100690
+    second: model:RollOffsetToes_L
+  - first:
+      1: 100692
+    second: model:RollOffsetToes_R
+  - first:
+      1: 100694
+    second: model:RollOffsetToesEnd_L
+  - first:
+      1: 100696
+    second: model:RollOffsetToesEnd_R
+  - first:
+      1: 100698
+    second: model:RollRollerHeel_L
+  - first:
+      1: 100700
+    second: model:RollRollerHeel_R
+  - first:
+      1: 100702
+    second: model:RollRollerToes_L
+  - first:
+      1: 100704
+    second: model:RollRollerToes_R
+  - first:
+      1: 100706
+    second: model:RollRollerToesEnd_L
+  - first:
+      1: 100708
+    second: model:RollRollerToesEnd_R
+  - first:
+      1: 100710
+    second: model:RollToes_L
+  - first:
+      1: 100712
+    second: model:RollToes_R
+  - first:
+      1: 100714
+    second: model:RollToesEnd_L
+  - first:
+      1: 100716
+    second: model:RollToesEnd_R
+  - first:
+      1: 100718
+    second: model:Root
+  - first:
+      1: 100720
+    second: model:Root_M
+  - first:
+      1: 100722
+    second: model:RootExtraX_M
+  - first:
+      1: 100724
+    second: model:RootOffsetX_M
+  - first:
+      1: 100726
+    second: model:RootSystem
+  - first:
+      1: 100728
+    second: model:Scapula
+  - first:
+      1: 100730
+    second: model:Scapula_L
+  - first:
+      1: 100732
+    second: model:Scapula_R
+  - first:
+      1: 100734
+    second: model:SDK1FKIndexFinger1_L
+  - first:
+      1: 100736
+    second: model:SDK1FKIndexFinger1_R
+  - first:
+      1: 100738
+    second: model:SDK1FKMiddleFinger1_L
+  - first:
+      1: 100740
+    second: model:SDK1FKMiddleFinger1_R
+  - first:
+      1: 100742
+    second: model:SDK1FKPinkyFinger1_L
+  - first:
+      1: 100744
+    second: model:SDK1FKPinkyFinger1_R
+  - first:
+      1: 100746
+    second: model:SDK1FKRingFinger1_L
+  - first:
+      1: 100748
+    second: model:SDK1FKRingFinger1_R
+  - first:
+      1: 100750
+    second: model:SDK2FKIndexFinger1_L
+  - first:
+      1: 100752
+    second: model:SDK2FKIndexFinger1_R
+  - first:
+      1: 100754
+    second: model:SDK2FKPinkyFinger1_L
+  - first:
+      1: 100756
+    second: model:SDK2FKPinkyFinger1_R
+  - first:
+      1: 100758
+    second: model:SDK2FKRingFinger1_L
+  - first:
+      1: 100760
+    second: model:SDK2FKRingFinger1_R
+  - first:
+      1: 100762
+    second: model:Shoulder
+  - first:
+      1: 100764
+    second: model:Shoulder_L
+  - first:
+      1: 100766
+    second: model:Shoulder_R
+  - first:
+      1: 100768
+    second: model:ShoulderPart1_L
+  - first:
+      1: 100770
+    second: model:ShoulderPart1_R
+  - first:
+      1: 100772
+    second: model:ShoulderPart2_L
+  - first:
+      1: 100774
+    second: model:ShoulderPart2_R
+  - first:
+      1: 100776
+    second: model:Spine1
+  - first:
+      1: 100778
+    second: model:Spine1_M
+  - first:
+      1: 100780
+    second: model:ThumbFinger1
+  - first:
+      1: 100782
+    second: model:ThumbFinger1_L
+  - first:
+      1: 100784
+    second: model:ThumbFinger1_R
+  - first:
+      1: 100786
+    second: model:ThumbFinger2
+  - first:
+      1: 100788
+    second: model:ThumbFinger2_L
+  - first:
+      1: 100790
+    second: model:ThumbFinger2_R
+  - first:
+      1: 100792
+    second: model:ThumbFinger3
+  - first:
+      1: 100794
+    second: model:ThumbFinger3_L
+  - first:
+      1: 100796
+    second: model:ThumbFinger3_R
+  - first:
+      1: 100798
+    second: model:ThumbFinger4
+  - first:
+      1: 100800
+    second: model:ThumbFinger4_L
+  - first:
+      1: 100802
+    second: model:ThumbFinger4_R
+  - first:
+      1: 100804
+    second: model:Toes
+  - first:
+      1: 100806
+    second: model:Toes_L
+  - first:
+      1: 100808
+    second: model:Toes_R
+  - first:
+      1: 100810
+    second: model:ToesEnd
+  - first:
+      1: 100812
+    second: model:ToesEnd_L
+  - first:
+      1: 100814
+    second: model:ToesEnd_R
+  - first:
+      1: 100816
+    second: model:TwistBalancerChest_M
+  - first:
+      1: 100818
+    second: model:TwistBalancerElbow_L
+  - first:
+      1: 100820
+    second: model:TwistBalancerElbow_R
+  - first:
+      1: 100822
+    second: model:TwistBalancerShoulder_L
+  - first:
+      1: 100824
+    second: model:TwistBalancerShoulder_R
+  - first:
+      1: 100826
+    second: model:TwisterElbow0_L
+  - first:
+      1: 100828
+    second: model:TwisterElbow0_R
+  - first:
+      1: 100830
+    second: model:TwisterElbow1_L
+  - first:
+      1: 100832
+    second: model:TwisterElbow1_R
+  - first:
+      1: 100834
+    second: model:TwisterElbow2_L
+  - first:
+      1: 100836
+    second: model:TwisterElbow2_R
+  - first:
+      1: 100838
+    second: model:TwisterShoulder0_L
+  - first:
+      1: 100840
+    second: model:TwisterShoulder0_R
+  - first:
+      1: 100842
+    second: model:TwisterShoulder1_L
+  - first:
+      1: 100844
+    second: model:TwisterShoulder1_R
+  - first:
+      1: 100846
+    second: model:TwisterShoulder2_L
+  - first:
+      1: 100848
+    second: model:TwisterShoulder2_R
+  - first:
+      1: 100850
+    second: model:TwistFollowChest_M
+  - first:
+      1: 100852
+    second: model:TwistFollowElbow_L
+  - first:
+      1: 100854
+    second: model:TwistFollowElbow_R
+  - first:
+      1: 100856
+    second: model:TwistFollowOffsetChest_M
+  - first:
+      1: 100858
+    second: model:TwistFollowOffsetElbow_L
+  - first:
+      1: 100860
+    second: model:TwistFollowOffsetElbow_R
+  - first:
+      1: 100862
+    second: model:TwistFollowOffsetShoulder_L
+  - first:
+      1: 100864
+    second: model:TwistFollowOffsetShoulder_R
+  - first:
+      1: 100866
+    second: model:TwistFollowParentChest_M
+  - first:
+      1: 100868
+    second: model:TwistFollowParentElbow_L
+  - first:
+      1: 100870
+    second: model:TwistFollowParentElbow_R
+  - first:
+      1: 100872
+    second: model:TwistFollowParentOffsetChest_M
+  - first:
+      1: 100874
+    second: model:TwistFollowParentOffsetElbow_L
+  - first:
+      1: 100876
+    second: model:TwistFollowParentOffsetElbow_R
+  - first:
+      1: 100878
+    second: model:TwistFollowParentOffsetShoulder_L
+  - first:
+      1: 100880
+    second: model:TwistFollowParentOffsetShoulder_R
+  - first:
+      1: 100882
+    second: model:TwistFollowParentShoulder_L
+  - first:
+      1: 100884
+    second: model:TwistFollowParentShoulder_R
+  - first:
+      1: 100886
+    second: model:TwistFollowShoulder_L
+  - first:
+      1: 100888
+    second: model:TwistFollowShoulder_R
+  - first:
+      1: 100890
+    second: model:TwistSystem
+  - first:
+      1: 100892
+    second: model:UnTwistChest_M
+  - first:
+      1: 100894
+    second: model:UnTwistElbow_L
+  - first:
+      1: 100896
+    second: model:UnTwistElbow_R
+  - first:
+      1: 100898
+    second: model:UnTwistEndChest_M
+  - first:
+      1: 100900
+    second: model:UnTwistEndElbow_L
+  - first:
+      1: 100902
+    second: model:UnTwistEndElbow_R
+  - first:
+      1: 100904
+    second: model:UnTwistEndShoulder_L
+  - first:
+      1: 100906
+    second: model:UnTwistEndShoulder_R
+  - first:
+      1: 100908
+    second: model:UnTwistIKChest_M
+  - first:
+      1: 100910
+    second: model:UnTwistIKElbow_L
+  - first:
+      1: 100912
+    second: model:UnTwistIKElbow_R
+  - first:
+      1: 100914
+    second: model:UnTwistIKShoulder_L
+  - first:
+      1: 100916
+    second: model:UnTwistIKShoulder_R
+  - first:
+      1: 100918
+    second: model:UnTwistShoulder_L
+  - first:
+      1: 100920
+    second: model:UnTwistShoulder_R
+  - first:
+      1: 100922
+    second: model:Wrist
+  - first:
+      1: 100924
+    second: model:Wrist_L
+  - first:
+      1: 100926
+    second: model:Wrist_R
+  - first:
+      1: 100928
+    second: model:zombi_mixamo2:polySurface1
+  - first:
+      1: 100930
+    second: //RootNode
+  - first:
+      4: 400000
+    second: model:AimEye
+  - first:
+      4: 400002
+    second: model:AimFollowEye
+  - first:
+      4: 400004
+    second: model:AimFollowOffEye
+  - first:
+      4: 400006
+    second: model:AimFollowOnEye
+  - first:
+      4: 400008
+    second: model:AimOffsetEye
+  - first:
+      4: 400010
+    second: model:AimSystem
+  - first:
+      4: 400012
+    second: model:AlignIKToWrist_L
+  - first:
+      4: 400014
+    second: model:Ankle
+  - first:
+      4: 400016
+    second: model:Ankle_L
+  - first:
+      4: 400018
+    second: model:Ankle_R
+  - first:
+      4: 400020
+    second: model:BendSystem
+  - first:
+      4: 400022
+    second: model:Chest
+  - first:
+      4: 400024
+    second: model:Chest_M
+  - first:
+      4: 400026
+    second: model:ConstraintSystem
+  - first:
+      4: 400028
+    second: model:DeformationSystem
+  - first:
+      4: 400030
+    second: model:DrivingSystem
+  - first:
+      4: 400032
+    second: model:DynamicSystem
+  - first:
+      4: 400034
+    second: model:Elbow
+  - first:
+      4: 400036
+    second: model:Elbow_L
+  - first:
+      4: 400038
+    second: model:Elbow_R
+  - first:
+      4: 400040
+    second: model:Eye
+  - first:
+      4: 400042
+    second: model:EyeEnd
+  - first:
+      4: 400044
+    second: model:FitSkeleton
+  - first:
+      4: 400046
+    second: model:FKElbow_L
+  - first:
+      4: 400048
+    second: model:FKExtraElbow_L
+  - first:
+      4: 400050
+    second: model:FKExtraHip_L
+  - first:
+      4: 400052
+    second: model:FKExtraHip_R
+  - first:
+      4: 400054
+    second: model:FKExtraIndexFinger1_L
+  - first:
+      4: 400056
+    second: model:FKExtraIndexFinger1_R
+  - first:
+      4: 400058
+    second: model:FKExtraMiddleFinger1_L
+  - first:
+      4: 400060
+    second: model:FKExtraMiddleFinger1_R
+  - first:
+      4: 400062
+    second: model:FKExtraNeck_M
+  - first:
+      4: 400064
+    second: model:FKExtraPinkyFinger1_L
+  - first:
+      4: 400066
+    second: model:FKExtraPinkyFinger1_R
+  - first:
+      4: 400068
+    second: model:FKExtraRingFinger1_L
+  - first:
+      4: 400070
+    second: model:FKExtraRingFinger1_R
+  - first:
+      4: 400072
+    second: model:FKExtraRoot_M
+  - first:
+      4: 400074
+    second: model:FKExtraScapula_L
+  - first:
+      4: 400076
+    second: model:FKExtraScapula_R
+  - first:
+      4: 400078
+    second: model:FKExtraShoulder_L
+  - first:
+      4: 400080
+    second: model:FKExtraShoulder_R
+  - first:
+      4: 400082
+    second: model:FKExtraThumbFinger1_L
+  - first:
+      4: 400084
+    second: model:FKExtraThumbFinger1_R
+  - first:
+      4: 400086
+    second: model:FKExtraWrist_L
+  - first:
+      4: 400088
+    second: model:FKIKMixElbow_L
+  - first:
+      4: 400090
+    second: model:FKIKMixElbow_R
+  - first:
+      4: 400092
+    second: model:FKIKParentConstraintArm_L
+  - first:
+      4: 400094
+    second: model:FKIKParentConstraintArm_R
+  - first:
+      4: 400096
+    second: model:FKIKParentConstraintLeg_L
+  - first:
+      4: 400098
+    second: model:FKIKParentConstraintLeg_R
+  - first:
+      4: 400100
+    second: model:FKIKParentConstraintSpine_M
+  - first:
+      4: 400102
+    second: model:FKIKSystem
+  - first:
+      4: 400104
+    second: model:FKOffsetElbow_L
+  - first:
+      4: 400106
+    second: model:FKOffsetHip_L
+  - first:
+      4: 400108
+    second: model:FKOffsetHip_R
+  - first:
+      4: 400110
+    second: model:FKOffsetIndexFinger1_L
+  - first:
+      4: 400112
+    second: model:FKOffsetIndexFinger1_R
+  - first:
+      4: 400114
+    second: model:FKOffsetMiddleFinger1_L
+  - first:
+      4: 400116
+    second: model:FKOffsetMiddleFinger1_R
+  - first:
+      4: 400118
+    second: model:FKOffsetNeck_M
+  - first:
+      4: 400120
+    second: model:FKOffsetPinkyFinger1_L
+  - first:
+      4: 400122
+    second: model:FKOffsetPinkyFinger1_R
+  - first:
+      4: 400124
+    second: model:FKOffsetRingFinger1_L
+  - first:
+      4: 400126
+    second: model:FKOffsetRingFinger1_R
+  - first:
+      4: 400128
+    second: model:FKOffsetRoot_M
+  - first:
+      4: 400130
+    second: model:FKOffsetScapula_L
+  - first:
+      4: 400132
+    second: model:FKOffsetScapula_R
+  - first:
+      4: 400134
+    second: model:FKOffsetShoulder_L
+  - first:
+      4: 400136
+    second: model:FKOffsetShoulder_R
+  - first:
+      4: 400138
+    second: model:FKOffsetThumbFinger1_L
+  - first:
+      4: 400140
+    second: model:FKOffsetThumbFinger1_R
+  - first:
+      4: 400142
+    second: model:FKOffsetWrist_L
+  - first:
+      4: 400144
+    second: model:FKParentConstraintToChest_M
+  - first:
+      4: 400146
+    second: model:FKParentConstraintToRoot_M
+  - first:
+      4: 400148
+    second: model:FKParentConstraintToScapula_L
+  - first:
+      4: 400150
+    second: model:FKParentConstraintToScapula_R
+  - first:
+      4: 400152
+    second: model:FKParentConstraintToWrist_L
+  - first:
+      4: 400154
+    second: model:FKParentConstraintToWrist_R
+  - first:
+      4: 400156
+    second: model:FKShoulder_L
+  - first:
+      4: 400158
+    second: model:FKSystem
+  - first:
+      4: 400160
+    second: model:FKWrist_L
+  - first:
+      4: 400162
+    second: model:FKXElbow_L
+  - first:
+      4: 400164
+    second: model:FKXShoulder_L
+  - first:
+      4: 400166
+    second: model:FKXWrist_L
+  - first:
+      4: 400168
+    second: model:Geometry
+  - first:
+      4: 400170
+    second: model:GlobalHead_M
+  - first:
+      4: 400172
+    second: model:GlobalOffsetHead_M
+  - first:
+      4: 400174
+    second: model:GlobalSystem
+  - first:
+      4: 400176
+    second: model:Group
+  - first:
+      4: 400178
+    second: model:Head
+  - first:
+      4: 400180
+    second: model:Head_M
+  - first:
+      4: 400182
+    second: model:HeadEnd
+  - first:
+      4: 400184
+    second: model:HeadEnd_M
+  - first:
+      4: 400186
+    second: model:Heel
+  - first:
+      4: 400188
+    second: model:Hip
+  - first:
+      4: 400190
+    second: model:Hip_L
+  - first:
+      4: 400192
+    second: model:Hip_R
+  - first:
+      4: 400194
+    second: model:IKAnkleHandle_L
+  - first:
+      4: 400196
+    second: model:IKAnkleHandle_R
+  - first:
+      4: 400198
+    second: model:IKCurve
+  - first:
+      4: 400200
+    second: model:IKdistanceArm_L
+  - first:
+      4: 400202
+    second: model:IKdistanceArm_R
+  - first:
+      4: 400204
+    second: model:IKdistanceLeg_L
+  - first:
+      4: 400206
+    second: model:IKdistanceLeg_R
+  - first:
+      4: 400208
+    second: model:IKExtraArm_L
+  - first:
+      4: 400210
+    second: model:IKExtraArm_R
+  - first:
+      4: 400212
+    second: model:IKExtraLeg_L
+  - first:
+      4: 400214
+    second: model:IKExtraLeg_R
+  - first:
+      4: 400216
+    second: model:IKExtraSpine1_M
+  - first:
+      4: 400218
+    second: model:IKExtraSpine2_M
+  - first:
+      4: 400220
+    second: model:IKfake0Spine_M
+  - first:
+      4: 400222
+    second: model:IKfake1Spine_M
+  - first:
+      4: 400224
+    second: model:IKFake1UpLocSpine_M
+  - first:
+      4: 400226
+    second: model:IKfake2Spine_M
+  - first:
+      4: 400228
+    second: model:IKfake3Spine_M
+  - first:
+      4: 400230
+    second: model:IKFKAlignedLeg_L
+  - first:
+      4: 400232
+    second: model:IKFKAlignedLeg_R
+  - first:
+      4: 400234
+    second: model:IKFKAlignedOffsetLeg_L
+  - first:
+      4: 400236
+    second: model:IKFKAlignedOffsetLeg_R
+  - first:
+      4: 400238
+    second: model:IKFollow
+  - first:
+      4: 400240
+    second: model:IKHandle
+  - first:
+      4: 400242
+    second: model:IKJoints
+  - first:
+      4: 400244
+    second: model:IKLeg_L
+  - first:
+      4: 400246
+    second: model:IKLeg_R
+  - first:
+      4: 400248
+    second: model:IKLegFootRoll_L
+  - first:
+      4: 400250
+    second: model:IKLegFootRoll_R
+  - first:
+      4: 400252
+    second: model:IKLegHandle_L
+  - first:
+      4: 400254
+    second: model:IKLegHandle_R
+  - first:
+      4: 400256
+    second: model:IKLegLiftToe_L
+  - first:
+      4: 400258
+    second: model:IKLegLiftToe_R
+  - first:
+      4: 400260
+    second: model:IKMessure
+  - first:
+      4: 400262
+    second: model:IKmessureConstrainToLeg_L
+  - first:
+      4: 400264
+    second: model:IKmessureConstrainToLeg_R
+  - first:
+      4: 400266
+    second: model:IKMessureFromHip_L
+  - first:
+      4: 400268
+    second: model:IKMessureFromHip_R
+  - first:
+      4: 400270
+    second: model:IKMessureFromShoulder_L
+  - first:
+      4: 400272
+    second: model:IKMessureFromShoulder_R
+  - first:
+      4: 400274
+    second: model:IKmessureLoc1Arm_L
+  - first:
+      4: 400276
+    second: model:IKmessureLoc1Arm_R
+  - first:
+      4: 400278
+    second: model:IKmessureLoc1Leg_L
+  - first:
+      4: 400280
+    second: model:IKmessureLoc1Leg_R
+  - first:
+      4: 400282
+    second: model:IKmessureLoc2Arm_L
+  - first:
+      4: 400284
+    second: model:IKmessureLoc2Arm_R
+  - first:
+      4: 400286
+    second: model:IKmessureLoc2Leg_L
+  - first:
+      4: 400288
+    second: model:IKmessureLoc2Leg_R
+  - first:
+      4: 400290
+    second: model:IKOffsetArm_L
+  - first:
+      4: 400292
+    second: model:IKOffsetArm_LFollow
+  - first:
+      4: 400294
+    second: model:IKOffsetArm_LFollowNoScale
+  - first:
+      4: 400296
+    second: model:IKOffsetArm_LStatic
+  - first:
+      4: 400298
+    second: model:IKOffsetArm_R
+  - first:
+      4: 400300
+    second: model:IKOffsetArm_RFollow
+  - first:
+      4: 400302
+    second: model:IKOffsetArm_RFollowNoScale
+  - first:
+      4: 400304
+    second: model:IKOffsetArm_RStatic
+  - first:
+      4: 400306
+    second: model:IKOffsetLeg_L
+  - first:
+      4: 400308
+    second: model:IKOffsetLeg_R
+  - first:
+      4: 400310
+    second: model:IKOffsetSpine1_M
+  - first:
+      4: 400312
+    second: model:IKOffsetSpine2_M
+  - first:
+      4: 400314
+    second: model:IKParentConstraintHip_L
+  - first:
+      4: 400316
+    second: model:IKParentConstraintHip_R
+  - first:
+      4: 400318
+    second: model:IKParentConstraintRoot_M
+  - first:
+      4: 400320
+    second: model:IKParentConstraintShoulder_L
+  - first:
+      4: 400322
+    second: model:IKParentConstraintShoulder_R
+  - first:
+      4: 400324
+    second: model:IKRootConstraint
+  - first:
+      4: 400326
+    second: model:IKScalerChest_M
+  - first:
+      4: 400328
+    second: model:IKScalerRoot_M
+  - first:
+      4: 400330
+    second: model:IKScalerSpine1_M
+  - first:
+      4: 400332
+    second: model:IKSpChest_M
+  - first:
+      4: 400334
+    second: model:IKSpChestFollowOffset_M
+  - first:
+      4: 400336
+    second: model:IKSpine0AlignTo_M
+  - first:
+      4: 400338
+    second: model:IKSpine1_M
+  - first:
+      4: 400340
+    second: model:IKSpine2_M
+  - first:
+      4: 400342
+    second: model:IKSpine2AlignTo_M
+  - first:
+      4: 400344
+    second: model:IKSpine2AlignUnIKTwistTo_M
+  - first:
+      4: 400346
+    second: model:IKSpine2AlignUnIKTwistToOffset_M
+  - first:
+      4: 400348
+    second: model:IKSpineCurve_M
+  - first:
+      4: 400350
+    second: model:IKSpineHandle_M
+  - first:
+      4: 400352
+    second: model:IKSpineLocator0_M
+  - first:
+      4: 400354
+    second: model:IKSpineLocator1_M
+  - first:
+      4: 400356
+    second: model:IKSpineLocator2_M
+  - first:
+      4: 400358
+    second: model:IKSpineLocator3_M
+  - first:
+      4: 400360
+    second: model:IKSpRoot_M
+  - first:
+      4: 400362
+    second: model:IKSpRootFollowOffset_M
+  - first:
+      4: 400364
+    second: model:IKSpSpine1_M
+  - first:
+      4: 400366
+    second: model:IKSpSpine1FollowOffset_M
+  - first:
+      4: 400368
+    second: model:IKSpSpineOffset_M
+  - first:
+      4: 400370
+    second: model:IKStatic
+  - first:
+      4: 400372
+    second: model:IKStiffOrientSpine1_M
+  - first:
+      4: 400374
+    second: model:IKStiffOrientSpine2_M
+  - first:
+      4: 400376
+    second: model:IKSystem
+  - first:
+      4: 400378
+    second: model:IKToesHandle_L
+  - first:
+      4: 400380
+    second: model:IKToesHandle_R
+  - first:
+      4: 400382
+    second: model:IKX2Ankle_L
+  - first:
+      4: 400384
+    second: model:IKX2Ankle_R
+  - first:
+      4: 400386
+    second: model:IKX2Chest_M
+  - first:
+      4: 400388
+    second: model:IKX2Elbow_L
+  - first:
+      4: 400390
+    second: model:IKX2Elbow_R
+  - first:
+      4: 400392
+    second: model:IKX2Hip_L
+  - first:
+      4: 400394
+    second: model:IKX2Hip_R
+  - first:
+      4: 400396
+    second: model:IKX2Knee_L
+  - first:
+      4: 400398
+    second: model:IKX2Knee_R
+  - first:
+      4: 400400
+    second: model:IKX2Root_M
+  - first:
+      4: 400402
+    second: model:IKX2Shoulder_L
+  - first:
+      4: 400404
+    second: model:IKX2Shoulder_R
+  - first:
+      4: 400406
+    second: model:IKX2Spine1_M
+  - first:
+      4: 400408
+    second: model:IKX2Toes_L
+  - first:
+      4: 400410
+    second: model:IKX2Toes_R
+  - first:
+      4: 400412
+    second: model:IKX2ToesEnd_L
+  - first:
+      4: 400414
+    second: model:IKX2ToesEnd_R
+  - first:
+      4: 400416
+    second: model:IKX2Wrist_L
+  - first:
+      4: 400418
+    second: model:IKX2Wrist_R
+  - first:
+      4: 400420
+    second: model:IKXAnkle_L
+  - first:
+      4: 400422
+    second: model:IKXAnkle_R
+  - first:
+      4: 400424
+    second: model:IKXChest_M
+  - first:
+      4: 400426
+    second: model:IKXElbow_L
+  - first:
+      4: 400428
+    second: model:IKXElbow_R
+  - first:
+      4: 400430
+    second: model:IKXHip_L
+  - first:
+      4: 400432
+    second: model:IKXHip_R
+  - first:
+      4: 400434
+    second: model:IKXKnee_L
+  - first:
+      4: 400436
+    second: model:IKXKnee_R
+  - first:
+      4: 400438
+    second: model:IKXOffsetHip_L
+  - first:
+      4: 400440
+    second: model:IKXOffsetHip_R
+  - first:
+      4: 400442
+    second: model:IKXOffsetRoot_M
+  - first:
+      4: 400444
+    second: model:IKXOffsetShoulder_L
+  - first:
+      4: 400446
+    second: model:IKXOffsetShoulder_R
+  - first:
+      4: 400448
+    second: model:IKXRoot_M
+  - first:
+      4: 400450
+    second: model:IKXShoulder_L
+  - first:
+      4: 400452
+    second: model:IKXShoulder_R
+  - first:
+      4: 400454
+    second: model:IKXSpine1_M
+  - first:
+      4: 400456
+    second: model:IKXToes_L
+  - first:
+      4: 400458
+    second: model:IKXToes_R
+  - first:
+      4: 400460
+    second: model:IKXToesEnd_L
+  - first:
+      4: 400462
+    second: model:IKXToesEnd_R
+  - first:
+      4: 400464
+    second: model:IKXWrist_L
+  - first:
+      4: 400466
+    second: model:IKXWrist_R
+  - first:
+      4: 400468
+    second: model:IndexFinger1
+  - first:
+      4: 400470
+    second: model:IndexFinger1_L
+  - first:
+      4: 400472
+    second: model:IndexFinger1_R
+  - first:
+      4: 400474
+    second: model:IndexFinger2
+  - first:
+      4: 400476
+    second: model:IndexFinger2_L
+  - first:
+      4: 400478
+    second: model:IndexFinger2_R
+  - first:
+      4: 400480
+    second: model:IndexFinger3
+  - first:
+      4: 400482
+    second: model:IndexFinger3_L
+  - first:
+      4: 400484
+    second: model:IndexFinger3_R
+  - first:
+      4: 400486
+    second: model:IndexFinger4
+  - first:
+      4: 400488
+    second: model:IndexFinger4_L
+  - first:
+      4: 400490
+    second: model:IndexFinger4_R
+  - first:
+      4: 400492
+    second: model:Jaw
+  - first:
+      4: 400494
+    second: model:Jaw_M
+  - first:
+      4: 400496
+    second: model:JawEnd
+  - first:
+      4: 400498
+    second: model:JawEnd_M
+  - first:
+      4: 400500
+    second: model:jnt_eye
+  - first:
+      4: 400502
+    second: model:jnt_eyeR
+  - first:
+      4: 400504
+    second: model:joint1
+  - first:
+      4: 400506
+    second: model:joint2
+  - first:
+      4: 400508
+    second: model:joint3
+  - first:
+      4: 400510
+    second: model:joint4
+  - first:
+      4: 400512
+    second: model:joint5
+  - first:
+      4: 400514
+    second: model:joint6
+  - first:
+      4: 400516
+    second: model:Knee
+  - first:
+      4: 400518
+    second: model:Knee_L
+  - first:
+      4: 400520
+    second: model:Knee_R
+  - first:
+      4: 400522
+    second: model:LegLockConstrained
+  - first:
+      4: 400524
+    second: model:Main
+  - first:
+      4: 400526
+    second: model:MiddleFinger1
+  - first:
+      4: 400528
+    second: model:MiddleFinger1_L
+  - first:
+      4: 400530
+    second: model:MiddleFinger1_R
+  - first:
+      4: 400532
+    second: model:MiddleFinger2
+  - first:
+      4: 400534
+    second: model:MiddleFinger2_L
+  - first:
+      4: 400536
+    second: model:MiddleFinger2_R
+  - first:
+      4: 400538
+    second: model:MiddleFinger3
+  - first:
+      4: 400540
+    second: model:MiddleFinger3_L
+  - first:
+      4: 400542
+    second: model:MiddleFinger3_R
+  - first:
+      4: 400544
+    second: model:MiddleFinger4
+  - first:
+      4: 400546
+    second: model:MiddleFinger4_L
+  - first:
+      4: 400548
+    second: model:MiddleFinger4_R
+  - first:
+      4: 400550
+    second: model:MotionSystem
+  - first:
+      4: 400552
+    second: model:Neck
+  - first:
+      4: 400554
+    second: model:Neck_M
+  - first:
+      4: 400556
+    second: model:PinkyFinger1
+  - first:
+      4: 400558
+    second: model:PinkyFinger1_L
+  - first:
+      4: 400560
+    second: model:PinkyFinger1_R
+  - first:
+      4: 400562
+    second: model:PinkyFinger2
+  - first:
+      4: 400564
+    second: model:PinkyFinger2_L
+  - first:
+      4: 400566
+    second: model:PinkyFinger2_R
+  - first:
+      4: 400568
+    second: model:PinkyFinger3
+  - first:
+      4: 400570
+    second: model:PinkyFinger3_L
+  - first:
+      4: 400572
+    second: model:PinkyFinger3_R
+  - first:
+      4: 400574
+    second: model:PinkyFinger4
+  - first:
+      4: 400576
+    second: model:PinkyFinger4_L
+  - first:
+      4: 400578
+    second: model:PinkyFinger4_R
+  - first:
+      4: 400580
+    second: model:PoleAimLeg_L
+  - first:
+      4: 400582
+    second: model:PoleAimLeg_R
+  - first:
+      4: 400584
+    second: model:PoleAnnotationArm_L
+  - first:
+      4: 400586
+    second: model:PoleAnnotationArm_R
+  - first:
+      4: 400588
+    second: model:PoleAnnotationLeg_L
+  - first:
+      4: 400590
+    second: model:PoleAnnotationLeg_R
+  - first:
+      4: 400592
+    second: model:PoleArm_L
+  - first:
+      4: 400594
+    second: model:PoleArm_R
+  - first:
+      4: 400596
+    second: model:PoleExtraArm_L
+  - first:
+      4: 400598
+    second: model:PoleExtraArm_R
+  - first:
+      4: 400600
+    second: model:PoleExtraLeg_L
+  - first:
+      4: 400602
+    second: model:PoleExtraLeg_R
+  - first:
+      4: 400604
+    second: model:PoleLeg_L
+  - first:
+      4: 400606
+    second: model:PoleLeg_R
+  - first:
+      4: 400608
+    second: model:PoleOffsetArm_L
+  - first:
+      4: 400610
+    second: model:PoleOffsetArm_LStatic
+  - first:
+      4: 400612
+    second: model:PoleOffsetArm_R
+  - first:
+      4: 400614
+    second: model:PoleOffsetArm_RStatic
+  - first:
+      4: 400616
+    second: model:PoleOffsetLeg_L
+  - first:
+      4: 400618
+    second: model:PoleOffsetLeg_LFollow
+  - first:
+      4: 400620
+    second: model:PoleOffsetLeg_LFollowNoScale
+  - first:
+      4: 400622
+    second: model:PoleOffsetLeg_LStatic
+  - first:
+      4: 400624
+    second: model:PoleOffsetLeg_R
+  - first:
+      4: 400626
+    second: model:PoleOffsetLeg_RFollow
+  - first:
+      4: 400628
+    second: model:PoleOffsetLeg_RFollowNoScale
+  - first:
+      4: 400630
+    second: model:PoleOffsetLeg_RStatic
+  - first:
+      4: 400632
+    second: model:polySurface11
+  - first:
+      4: 400634
+    second: model:polySurface12
+  - first:
+      4: 400636
+    second: model:polySurface13
+  - first:
+      4: 400638
+    second: model:polySurface15
+  - first:
+      4: 400640
+    second: model:polySurface16
+  - first:
+      4: 400642
+    second: model:polySurface8
+  - first:
+      4: 400644
+    second: model:polySurface9
+  - first:
+      4: 400646
+    second: model:RingFinger1
+  - first:
+      4: 400648
+    second: model:RingFinger1_L
+  - first:
+      4: 400650
+    second: model:RingFinger1_R
+  - first:
+      4: 400652
+    second: model:RingFinger2
+  - first:
+      4: 400654
+    second: model:RingFinger2_L
+  - first:
+      4: 400656
+    second: model:RingFinger2_R
+  - first:
+      4: 400658
+    second: model:RingFinger3
+  - first:
+      4: 400660
+    second: model:RingFinger3_L
+  - first:
+      4: 400662
+    second: model:RingFinger3_R
+  - first:
+      4: 400664
+    second: model:RingFinger4
+  - first:
+      4: 400666
+    second: model:RingFinger4_L
+  - first:
+      4: 400668
+    second: model:RingFinger4_R
+  - first:
+      4: 400670
+    second: model:RollExtraHeel_L
+  - first:
+      4: 400672
+    second: model:RollExtraHeel_R
+  - first:
+      4: 400674
+    second: model:RollExtraToes_L
+  - first:
+      4: 400676
+    second: model:RollExtraToes_R
+  - first:
+      4: 400678
+    second: model:RollExtraToesEnd_L
+  - first:
+      4: 400680
+    second: model:RollExtraToesEnd_R
+  - first:
+      4: 400682
+    second: model:RollHeel_L
+  - first:
+      4: 400684
+    second: model:RollHeel_R
+  - first:
+      4: 400686
+    second: model:RollOffsetHeel_L
+  - first:
+      4: 400688
+    second: model:RollOffsetHeel_R
+  - first:
+      4: 400690
+    second: model:RollOffsetToes_L
+  - first:
+      4: 400692
+    second: model:RollOffsetToes_R
+  - first:
+      4: 400694
+    second: model:RollOffsetToesEnd_L
+  - first:
+      4: 400696
+    second: model:RollOffsetToesEnd_R
+  - first:
+      4: 400698
+    second: model:RollRollerHeel_L
+  - first:
+      4: 400700
+    second: model:RollRollerHeel_R
+  - first:
+      4: 400702
+    second: model:RollRollerToes_L
+  - first:
+      4: 400704
+    second: model:RollRollerToes_R
+  - first:
+      4: 400706
+    second: model:RollRollerToesEnd_L
+  - first:
+      4: 400708
+    second: model:RollRollerToesEnd_R
+  - first:
+      4: 400710
+    second: model:RollToes_L
+  - first:
+      4: 400712
+    second: model:RollToes_R
+  - first:
+      4: 400714
+    second: model:RollToesEnd_L
+  - first:
+      4: 400716
+    second: model:RollToesEnd_R
+  - first:
+      4: 400718
+    second: model:Root
+  - first:
+      4: 400720
+    second: model:Root_M
+  - first:
+      4: 400722
+    second: model:RootExtraX_M
+  - first:
+      4: 400724
+    second: model:RootOffsetX_M
+  - first:
+      4: 400726
+    second: model:RootSystem
+  - first:
+      4: 400728
+    second: model:Scapula
+  - first:
+      4: 400730
+    second: model:Scapula_L
+  - first:
+      4: 400732
+    second: model:Scapula_R
+  - first:
+      4: 400734
+    second: model:SDK1FKIndexFinger1_L
+  - first:
+      4: 400736
+    second: model:SDK1FKIndexFinger1_R
+  - first:
+      4: 400738
+    second: model:SDK1FKMiddleFinger1_L
+  - first:
+      4: 400740
+    second: model:SDK1FKMiddleFinger1_R
+  - first:
+      4: 400742
+    second: model:SDK1FKPinkyFinger1_L
+  - first:
+      4: 400744
+    second: model:SDK1FKPinkyFinger1_R
+  - first:
+      4: 400746
+    second: model:SDK1FKRingFinger1_L
+  - first:
+      4: 400748
+    second: model:SDK1FKRingFinger1_R
+  - first:
+      4: 400750
+    second: model:SDK2FKIndexFinger1_L
+  - first:
+      4: 400752
+    second: model:SDK2FKIndexFinger1_R
+  - first:
+      4: 400754
+    second: model:SDK2FKPinkyFinger1_L
+  - first:
+      4: 400756
+    second: model:SDK2FKPinkyFinger1_R
+  - first:
+      4: 400758
+    second: model:SDK2FKRingFinger1_L
+  - first:
+      4: 400760
+    second: model:SDK2FKRingFinger1_R
+  - first:
+      4: 400762
+    second: model:Shoulder
+  - first:
+      4: 400764
+    second: model:Shoulder_L
+  - first:
+      4: 400766
+    second: model:Shoulder_R
+  - first:
+      4: 400768
+    second: model:ShoulderPart1_L
+  - first:
+      4: 400770
+    second: model:ShoulderPart1_R
+  - first:
+      4: 400772
+    second: model:ShoulderPart2_L
+  - first:
+      4: 400774
+    second: model:ShoulderPart2_R
+  - first:
+      4: 400776
+    second: model:Spine1
+  - first:
+      4: 400778
+    second: model:Spine1_M
+  - first:
+      4: 400780
+    second: model:ThumbFinger1
+  - first:
+      4: 400782
+    second: model:ThumbFinger1_L
+  - first:
+      4: 400784
+    second: model:ThumbFinger1_R
+  - first:
+      4: 400786
+    second: model:ThumbFinger2
+  - first:
+      4: 400788
+    second: model:ThumbFinger2_L
+  - first:
+      4: 400790
+    second: model:ThumbFinger2_R
+  - first:
+      4: 400792
+    second: model:ThumbFinger3
+  - first:
+      4: 400794
+    second: model:ThumbFinger3_L
+  - first:
+      4: 400796
+    second: model:ThumbFinger3_R
+  - first:
+      4: 400798
+    second: model:ThumbFinger4
+  - first:
+      4: 400800
+    second: model:ThumbFinger4_L
+  - first:
+      4: 400802
+    second: model:ThumbFinger4_R
+  - first:
+      4: 400804
+    second: model:Toes
+  - first:
+      4: 400806
+    second: model:Toes_L
+  - first:
+      4: 400808
+    second: model:Toes_R
+  - first:
+      4: 400810
+    second: model:ToesEnd
+  - first:
+      4: 400812
+    second: model:ToesEnd_L
+  - first:
+      4: 400814
+    second: model:ToesEnd_R
+  - first:
+      4: 400816
+    second: model:TwistBalancerChest_M
+  - first:
+      4: 400818
+    second: model:TwistBalancerElbow_L
+  - first:
+      4: 400820
+    second: model:TwistBalancerElbow_R
+  - first:
+      4: 400822
+    second: model:TwistBalancerShoulder_L
+  - first:
+      4: 400824
+    second: model:TwistBalancerShoulder_R
+  - first:
+      4: 400826
+    second: model:TwisterElbow0_L
+  - first:
+      4: 400828
+    second: model:TwisterElbow0_R
+  - first:
+      4: 400830
+    second: model:TwisterElbow1_L
+  - first:
+      4: 400832
+    second: model:TwisterElbow1_R
+  - first:
+      4: 400834
+    second: model:TwisterElbow2_L
+  - first:
+      4: 400836
+    second: model:TwisterElbow2_R
+  - first:
+      4: 400838
+    second: model:TwisterShoulder0_L
+  - first:
+      4: 400840
+    second: model:TwisterShoulder0_R
+  - first:
+      4: 400842
+    second: model:TwisterShoulder1_L
+  - first:
+      4: 400844
+    second: model:TwisterShoulder1_R
+  - first:
+      4: 400846
+    second: model:TwisterShoulder2_L
+  - first:
+      4: 400848
+    second: model:TwisterShoulder2_R
+  - first:
+      4: 400850
+    second: model:TwistFollowChest_M
+  - first:
+      4: 400852
+    second: model:TwistFollowElbow_L
+  - first:
+      4: 400854
+    second: model:TwistFollowElbow_R
+  - first:
+      4: 400856
+    second: model:TwistFollowOffsetChest_M
+  - first:
+      4: 400858
+    second: model:TwistFollowOffsetElbow_L
+  - first:
+      4: 400860
+    second: model:TwistFollowOffsetElbow_R
+  - first:
+      4: 400862
+    second: model:TwistFollowOffsetShoulder_L
+  - first:
+      4: 400864
+    second: model:TwistFollowOffsetShoulder_R
+  - first:
+      4: 400866
+    second: model:TwistFollowParentChest_M
+  - first:
+      4: 400868
+    second: model:TwistFollowParentElbow_L
+  - first:
+      4: 400870
+    second: model:TwistFollowParentElbow_R
+  - first:
+      4: 400872
+    second: model:TwistFollowParentOffsetChest_M
+  - first:
+      4: 400874
+    second: model:TwistFollowParentOffsetElbow_L
+  - first:
+      4: 400876
+    second: model:TwistFollowParentOffsetElbow_R
+  - first:
+      4: 400878
+    second: model:TwistFollowParentOffsetShoulder_L
+  - first:
+      4: 400880
+    second: model:TwistFollowParentOffsetShoulder_R
+  - first:
+      4: 400882
+    second: model:TwistFollowParentShoulder_L
+  - first:
+      4: 400884
+    second: model:TwistFollowParentShoulder_R
+  - first:
+      4: 400886
+    second: model:TwistFollowShoulder_L
+  - first:
+      4: 400888
+    second: model:TwistFollowShoulder_R
+  - first:
+      4: 400890
+    second: model:TwistSystem
+  - first:
+      4: 400892
+    second: model:UnTwistChest_M
+  - first:
+      4: 400894
+    second: model:UnTwistElbow_L
+  - first:
+      4: 400896
+    second: model:UnTwistElbow_R
+  - first:
+      4: 400898
+    second: model:UnTwistEndChest_M
+  - first:
+      4: 400900
+    second: model:UnTwistEndElbow_L
+  - first:
+      4: 400902
+    second: model:UnTwistEndElbow_R
+  - first:
+      4: 400904
+    second: model:UnTwistEndShoulder_L
+  - first:
+      4: 400906
+    second: model:UnTwistEndShoulder_R
+  - first:
+      4: 400908
+    second: model:UnTwistIKChest_M
+  - first:
+      4: 400910
+    second: model:UnTwistIKElbow_L
+  - first:
+      4: 400912
+    second: model:UnTwistIKElbow_R
+  - first:
+      4: 400914
+    second: model:UnTwistIKShoulder_L
+  - first:
+      4: 400916
+    second: model:UnTwistIKShoulder_R
+  - first:
+      4: 400918
+    second: model:UnTwistShoulder_L
+  - first:
+      4: 400920
+    second: model:UnTwistShoulder_R
+  - first:
+      4: 400922
+    second: model:Wrist
+  - first:
+      4: 400924
+    second: model:Wrist_L
+  - first:
+      4: 400926
+    second: model:Wrist_R
+  - first:
+      4: 400928
+    second: model:zombi_mixamo2:polySurface1
+  - first:
+      4: 400930
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: model:polySurface9
+  - first:
+      43: 4300002
+    second: model:polySurface11
+  - first:
+      43: 4300004
+    second: model:polySurface12
+  - first:
+      43: 4300006
+    second: model:polySurface13
+  - first:
+      43: 4300008
+    second: model:polySurface8
+  - first:
+      43: 4300010
+    second: model:polySurface15
+  - first:
+      43: 4300012
+    second: model:polySurface16
+  - first:
+      74: 7400000
+    second: fearful
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: model:polySurface11
+  - first:
+      137: 13700002
+    second: model:polySurface12
+  - first:
+      137: 13700004
+    second: model:polySurface13
+  - first:
+      137: 13700006
+    second: model:polySurface15
+  - first:
+      137: 13700008
+    second: model:polySurface16
+  - first:
+      137: 13700010
+    second: model:polySurface8
+  - first:
+      137: 13700012
+    second: model:polySurface9
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong2
+    second: {fileID: 2100000, guid: 7184d731500d26f41bb44fa575e16179, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: fearful
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 583
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: playSound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: model:Group
+        weight: 1
+      - path: model:Group/model:Geometry
+        weight: 1
+      - path: model:Group/model:Main
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Hip_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Hip_L/model:Knee_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Hip_L/model:Knee_L/model:Ankle_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Hip_L/model:Knee_L/model:Ankle_L/model:Toes_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Hip_L/model:Knee_L/model:Ankle_L/model:Toes_L/model:ToesEnd_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Hip_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Hip_R/model:Knee_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Hip_R/model:Knee_R/model:Ankle_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Hip_R/model:Knee_R/model:Ankle_R/model:Toes_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Hip_R/model:Knee_R/model:Ankle_R/model:Toes_R/model:ToesEnd_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Neck_M
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Neck_M/model:Head_M
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Neck_M/model:Head_M/model:HeadEnd_M
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Neck_M/model:Head_M/model:Jaw_M
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Neck_M/model:Head_M/model:Jaw_M/model:JawEnd_M
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Neck_M/model:Head_M/model:jnt_eye
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Neck_M/model:Head_M/model:jnt_eyeR
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:IndexFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:IndexFinger1_L/model:IndexFinger2_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:IndexFinger1_L/model:IndexFinger2_L/model:IndexFinger3_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:IndexFinger1_L/model:IndexFinger2_L/model:IndexFinger3_L/model:IndexFinger4_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:MiddleFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:MiddleFinger1_L/model:MiddleFinger2_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:MiddleFinger1_L/model:MiddleFinger2_L/model:MiddleFinger3_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:MiddleFinger1_L/model:MiddleFinger2_L/model:MiddleFinger3_L/model:MiddleFinger4_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:PinkyFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:PinkyFinger1_L/model:PinkyFinger2_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:PinkyFinger1_L/model:PinkyFinger2_L/model:PinkyFinger3_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:PinkyFinger1_L/model:PinkyFinger2_L/model:PinkyFinger3_L/model:PinkyFinger4_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:RingFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:RingFinger1_L/model:RingFinger2_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:RingFinger1_L/model:RingFinger2_L/model:RingFinger3_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:RingFinger1_L/model:RingFinger2_L/model:RingFinger3_L/model:RingFinger4_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:ThumbFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:ThumbFinger1_L/model:ThumbFinger2_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:ThumbFinger1_L/model:ThumbFinger2_L/model:ThumbFinger3_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_L/model:Shoulder_L/model:ShoulderPart1_L/model:ShoulderPart2_L/model:Elbow_L/model:Wrist_L/model:ThumbFinger1_L/model:ThumbFinger2_L/model:ThumbFinger3_L/model:ThumbFinger4_L
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:IndexFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:IndexFinger1_R/model:IndexFinger2_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:IndexFinger1_R/model:IndexFinger2_R/model:IndexFinger3_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:IndexFinger1_R/model:IndexFinger2_R/model:IndexFinger3_R/model:IndexFinger4_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:MiddleFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:MiddleFinger1_R/model:MiddleFinger2_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:MiddleFinger1_R/model:MiddleFinger2_R/model:MiddleFinger3_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:MiddleFinger1_R/model:MiddleFinger2_R/model:MiddleFinger3_R/model:MiddleFinger4_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:PinkyFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:PinkyFinger1_R/model:PinkyFinger2_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:PinkyFinger1_R/model:PinkyFinger2_R/model:PinkyFinger3_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:PinkyFinger1_R/model:PinkyFinger2_R/model:PinkyFinger3_R/model:PinkyFinger4_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:RingFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:RingFinger1_R/model:RingFinger2_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:RingFinger1_R/model:RingFinger2_R/model:RingFinger3_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:RingFinger1_R/model:RingFinger2_R/model:RingFinger3_R/model:RingFinger4_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:ThumbFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:ThumbFinger1_R/model:ThumbFinger2_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:ThumbFinger1_R/model:ThumbFinger2_R/model:ThumbFinger3_R
+        weight: 1
+      - path: model:Group/model:Main/model:DeformationSystem/model:Root_M/model:Spine1_M/model:Chest_M/model:Scapula_R/model:Shoulder_R/model:ShoulderPart1_R/model:ShoulderPart2_R/model:Elbow_R/model:Wrist_R/model:ThumbFinger1_R/model:ThumbFinger2_R/model:ThumbFinger3_R/model:ThumbFinger4_R
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Hip
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Hip/model:Knee
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Hip/model:Knee/model:Ankle
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Hip/model:Knee/model:Ankle/model:Heel
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Hip/model:Knee/model:Ankle/model:Toes
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Hip/model:Knee/model:Ankle/model:Toes/model:ToesEnd
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Neck
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Neck/model:Head
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Neck/model:Head/model:Eye
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Neck/model:Head/model:Eye/model:EyeEnd
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Neck/model:Head/model:HeadEnd
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Neck/model:Head/model:Jaw
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Neck/model:Head/model:Jaw/model:JawEnd
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:IndexFinger1
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:IndexFinger1/model:IndexFinger2
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:IndexFinger1/model:IndexFinger2/model:IndexFinger3
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:IndexFinger1/model:IndexFinger2/model:IndexFinger3/model:IndexFinger4
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:MiddleFinger1
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:MiddleFinger1/model:MiddleFinger2
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:MiddleFinger1/model:MiddleFinger2/model:MiddleFinger3
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:MiddleFinger1/model:MiddleFinger2/model:MiddleFinger3/model:MiddleFinger4
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:PinkyFinger1
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:PinkyFinger1/model:PinkyFinger2
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:PinkyFinger1/model:PinkyFinger2/model:PinkyFinger3
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:PinkyFinger1/model:PinkyFinger2/model:PinkyFinger3/model:PinkyFinger4
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:RingFinger1
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:RingFinger1/model:RingFinger2
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:RingFinger1/model:RingFinger2/model:RingFinger3
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:RingFinger1/model:RingFinger2/model:RingFinger3/model:RingFinger4
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:ThumbFinger1
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:ThumbFinger1/model:ThumbFinger2
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:ThumbFinger1/model:ThumbFinger2/model:ThumbFinger3
+        weight: 1
+      - path: model:Group/model:Main/model:FitSkeleton/model:Root/model:Spine1/model:Chest/model:Scapula/model:Shoulder/model:Elbow/model:Wrist/model:ThumbFinger1/model:ThumbFinger2/model:ThumbFinger3/model:ThumbFinger4
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:AimSystem
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:AimSystem/model:AimEye
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:AimSystem/model:AimEye/model:AimOffsetEye
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:AimSystem/model:AimEye/model:AimOffsetEye/model:AimFollowEye
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:AimSystem/model:AimEye/model:AimOffsetEye/model:AimFollowOffEye
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:AimSystem/model:AimEye/model:AimOffsetEye/model:AimFollowOnEye
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:BendSystem
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:ConstraintSystem
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:DrivingSystem
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:DynamicSystem
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKIKSystem
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKIKSystem/model:FKIKParentConstraintArm_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKIKSystem/model:FKIKParentConstraintArm_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKIKSystem/model:FKIKParentConstraintLeg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKIKSystem/model:FKIKParentConstraintLeg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKIKSystem/model:FKIKParentConstraintSpine_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKOffsetRoot_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKOffsetRoot_M/model:FKExtraRoot_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToChest_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToChest_M/model:FKOffsetNeck_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToChest_M/model:FKOffsetNeck_M/model:FKExtraNeck_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToChest_M/model:FKOffsetScapula_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToChest_M/model:FKOffsetScapula_L/model:FKExtraScapula_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToChest_M/model:FKOffsetScapula_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToChest_M/model:FKOffsetScapula_R/model:FKExtraScapula_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToRoot_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToRoot_M/model:FKOffsetHip_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToRoot_M/model:FKOffsetHip_L/model:FKExtraHip_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToRoot_M/model:FKOffsetHip_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToRoot_M/model:FKOffsetHip_R/model:FKExtraHip_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_L/model:FKOffsetShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_L/model:FKOffsetShoulder_L/model:FKExtraShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_L/model:FKOffsetShoulder_L/model:FKExtraShoulder_L/model:FKShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_L/model:FKOffsetShoulder_L/model:FKExtraShoulder_L/model:FKShoulder_L/model:FKXShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_L/model:FKOffsetShoulder_L/model:FKExtraShoulder_L/model:FKShoulder_L/model:FKXShoulder_L/model:FKOffsetElbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_L/model:FKOffsetShoulder_L/model:FKExtraShoulder_L/model:FKShoulder_L/model:FKXShoulder_L/model:FKOffsetElbow_L/model:FKExtraElbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_L/model:FKOffsetShoulder_L/model:FKExtraShoulder_L/model:FKShoulder_L/model:FKXShoulder_L/model:FKOffsetElbow_L/model:FKExtraElbow_L/model:FKElbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_L/model:FKOffsetShoulder_L/model:FKExtraShoulder_L/model:FKShoulder_L/model:FKXShoulder_L/model:FKOffsetElbow_L/model:FKExtraElbow_L/model:FKElbow_L/model:FKXElbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_L/model:FKOffsetShoulder_L/model:FKExtraShoulder_L/model:FKShoulder_L/model:FKXShoulder_L/model:FKOffsetElbow_L/model:FKExtraElbow_L/model:FKElbow_L/model:FKXElbow_L/model:FKOffsetWrist_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_L/model:FKOffsetShoulder_L/model:FKExtraShoulder_L/model:FKShoulder_L/model:FKXShoulder_L/model:FKOffsetElbow_L/model:FKExtraElbow_L/model:FKElbow_L/model:FKXElbow_L/model:FKOffsetWrist_L/model:FKExtraWrist_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_L/model:FKOffsetShoulder_L/model:FKExtraShoulder_L/model:FKShoulder_L/model:FKXShoulder_L/model:FKOffsetElbow_L/model:FKExtraElbow_L/model:FKElbow_L/model:FKXElbow_L/model:FKOffsetWrist_L/model:FKExtraWrist_L/model:FKWrist_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_L/model:FKOffsetShoulder_L/model:FKExtraShoulder_L/model:FKShoulder_L/model:FKXShoulder_L/model:FKOffsetElbow_L/model:FKExtraElbow_L/model:FKElbow_L/model:FKXElbow_L/model:FKOffsetWrist_L/model:FKExtraWrist_L/model:FKWrist_L/model:FKXWrist_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_L/model:FKOffsetShoulder_L/model:FKExtraShoulder_L/model:FKShoulder_L/model:FKXShoulder_L/model:FKOffsetElbow_L/model:FKExtraElbow_L/model:FKElbow_L/model:FKXElbow_L/model:FKOffsetWrist_L/model:FKExtraWrist_L/model:FKWrist_L/model:FKXWrist_L/model:AlignIKToWrist_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_R/model:FKOffsetShoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToScapula_R/model:FKOffsetShoulder_R/model:FKExtraShoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetIndexFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetIndexFinger1_L/model:SDK1FKIndexFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetIndexFinger1_L/model:SDK1FKIndexFinger1_L/model:SDK2FKIndexFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetIndexFinger1_L/model:SDK1FKIndexFinger1_L/model:SDK2FKIndexFinger1_L/model:FKExtraIndexFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetMiddleFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetMiddleFinger1_L/model:SDK1FKMiddleFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetMiddleFinger1_L/model:SDK1FKMiddleFinger1_L/model:FKExtraMiddleFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetPinkyFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetPinkyFinger1_L/model:SDK1FKPinkyFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetPinkyFinger1_L/model:SDK1FKPinkyFinger1_L/model:SDK2FKPinkyFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetPinkyFinger1_L/model:SDK1FKPinkyFinger1_L/model:SDK2FKPinkyFinger1_L/model:FKExtraPinkyFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetRingFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetRingFinger1_L/model:SDK1FKRingFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetRingFinger1_L/model:SDK1FKRingFinger1_L/model:SDK2FKRingFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetRingFinger1_L/model:SDK1FKRingFinger1_L/model:SDK2FKRingFinger1_L/model:FKExtraRingFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetThumbFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_L/model:FKOffsetThumbFinger1_L/model:FKExtraThumbFinger1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetIndexFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetIndexFinger1_R/model:SDK1FKIndexFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetIndexFinger1_R/model:SDK1FKIndexFinger1_R/model:SDK2FKIndexFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetIndexFinger1_R/model:SDK1FKIndexFinger1_R/model:SDK2FKIndexFinger1_R/model:FKExtraIndexFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetMiddleFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetMiddleFinger1_R/model:SDK1FKMiddleFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetMiddleFinger1_R/model:SDK1FKMiddleFinger1_R/model:FKExtraMiddleFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetPinkyFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetPinkyFinger1_R/model:SDK1FKPinkyFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetPinkyFinger1_R/model:SDK1FKPinkyFinger1_R/model:SDK2FKPinkyFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetPinkyFinger1_R/model:SDK1FKPinkyFinger1_R/model:SDK2FKPinkyFinger1_R/model:FKExtraPinkyFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetRingFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetRingFinger1_R/model:SDK1FKRingFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetRingFinger1_R/model:SDK1FKRingFinger1_R/model:SDK2FKRingFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetRingFinger1_R/model:SDK1FKRingFinger1_R/model:SDK2FKRingFinger1_R/model:FKExtraRingFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetThumbFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:FKSystem/model:FKParentConstraintToWrist_R/model:FKOffsetThumbFinger1_R/model:FKExtraThumbFinger1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:GlobalSystem
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:GlobalSystem/model:GlobalOffsetHead_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:GlobalSystem/model:GlobalOffsetHead_M/model:GlobalHead_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKCurve
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKCurve/model:IKSpineCurve_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKFollow
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKFollow/model:IKOffsetArm_LFollow
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKFollow/model:IKOffsetArm_LFollowNoScale
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKFollow/model:IKOffsetArm_RFollow
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKFollow/model:IKOffsetArm_RFollowNoScale
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKFollow/model:PoleOffsetLeg_LFollow
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKFollow/model:PoleOffsetLeg_LFollowNoScale
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKFollow/model:PoleOffsetLeg_RFollow
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKFollow/model:PoleOffsetLeg_RFollowNoScale
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetArm_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetArm_L/model:IKExtraArm_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetArm_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetArm_R/model:IKExtraArm_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:IKFKAlignedOffsetLeg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:IKFKAlignedOffsetLeg_L/model:IKFKAlignedLeg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:IKLegFootRoll_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L/model:RollHeel_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L/model:RollHeel_L/model:RollOffsetToesEnd_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L/model:RollHeel_L/model:RollOffsetToesEnd_L/model:RollRollerToesEnd_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L/model:RollHeel_L/model:RollOffsetToesEnd_L/model:RollRollerToesEnd_L/model:RollExtraToesEnd_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L/model:RollHeel_L/model:RollOffsetToesEnd_L/model:RollRollerToesEnd_L/model:RollExtraToesEnd_L/model:RollToesEnd_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L/model:RollHeel_L/model:RollOffsetToesEnd_L/model:RollRollerToesEnd_L/model:RollExtraToesEnd_L/model:RollToesEnd_L/model:IKLegLiftToe_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L/model:RollHeel_L/model:RollOffsetToesEnd_L/model:RollRollerToesEnd_L/model:RollExtraToesEnd_L/model:RollToesEnd_L/model:IKLegLiftToe_L/model:IKToesHandle_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L/model:RollHeel_L/model:RollOffsetToesEnd_L/model:RollRollerToesEnd_L/model:RollExtraToesEnd_L/model:RollToesEnd_L/model:RollOffsetToes_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L/model:RollHeel_L/model:RollOffsetToesEnd_L/model:RollRollerToesEnd_L/model:RollExtraToesEnd_L/model:RollToesEnd_L/model:RollOffsetToes_L/model:RollRollerToes_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L/model:RollHeel_L/model:RollOffsetToesEnd_L/model:RollRollerToesEnd_L/model:RollExtraToesEnd_L/model:RollToesEnd_L/model:RollOffsetToes_L/model:RollRollerToes_L/model:RollExtraToes_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L/model:RollHeel_L/model:RollOffsetToesEnd_L/model:RollRollerToesEnd_L/model:RollExtraToesEnd_L/model:RollToesEnd_L/model:RollOffsetToes_L/model:RollRollerToes_L/model:RollExtraToes_L/model:RollToes_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L/model:RollHeel_L/model:RollOffsetToesEnd_L/model:RollRollerToesEnd_L/model:RollExtraToesEnd_L/model:RollToesEnd_L/model:RollOffsetToes_L/model:RollRollerToes_L/model:RollExtraToes_L/model:RollToes_L/model:IKAnkleHandle_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L/model:RollHeel_L/model:RollOffsetToesEnd_L/model:RollRollerToesEnd_L/model:RollExtraToesEnd_L/model:RollToesEnd_L/model:RollOffsetToes_L/model:RollRollerToes_L/model:RollExtraToes_L/model:RollToes_L/model:IKLegHandle_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_L/model:IKExtraLeg_L/model:IKLeg_L/model:RollOffsetHeel_L/model:RollRollerHeel_L/model:RollExtraHeel_L/model:RollHeel_L/model:RollOffsetToesEnd_L/model:RollRollerToesEnd_L/model:RollExtraToesEnd_L/model:RollToesEnd_L/model:RollOffsetToes_L/model:RollRollerToes_L/model:RollExtraToes_L/model:RollToes_L/model:IKmessureConstrainToLeg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:IKFKAlignedOffsetLeg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:IKFKAlignedOffsetLeg_R/model:IKFKAlignedLeg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:IKLegFootRoll_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R/model:RollHeel_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R/model:RollHeel_R/model:RollOffsetToesEnd_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R/model:RollHeel_R/model:RollOffsetToesEnd_R/model:RollRollerToesEnd_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R/model:RollHeel_R/model:RollOffsetToesEnd_R/model:RollRollerToesEnd_R/model:RollExtraToesEnd_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R/model:RollHeel_R/model:RollOffsetToesEnd_R/model:RollRollerToesEnd_R/model:RollExtraToesEnd_R/model:RollToesEnd_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R/model:RollHeel_R/model:RollOffsetToesEnd_R/model:RollRollerToesEnd_R/model:RollExtraToesEnd_R/model:RollToesEnd_R/model:IKLegLiftToe_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R/model:RollHeel_R/model:RollOffsetToesEnd_R/model:RollRollerToesEnd_R/model:RollExtraToesEnd_R/model:RollToesEnd_R/model:IKLegLiftToe_R/model:IKToesHandle_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R/model:RollHeel_R/model:RollOffsetToesEnd_R/model:RollRollerToesEnd_R/model:RollExtraToesEnd_R/model:RollToesEnd_R/model:RollOffsetToes_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R/model:RollHeel_R/model:RollOffsetToesEnd_R/model:RollRollerToesEnd_R/model:RollExtraToesEnd_R/model:RollToesEnd_R/model:RollOffsetToes_R/model:RollRollerToes_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R/model:RollHeel_R/model:RollOffsetToesEnd_R/model:RollRollerToesEnd_R/model:RollExtraToesEnd_R/model:RollToesEnd_R/model:RollOffsetToes_R/model:RollRollerToes_R/model:RollExtraToes_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R/model:RollHeel_R/model:RollOffsetToesEnd_R/model:RollRollerToesEnd_R/model:RollExtraToesEnd_R/model:RollToesEnd_R/model:RollOffsetToes_R/model:RollRollerToes_R/model:RollExtraToes_R/model:RollToes_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R/model:RollHeel_R/model:RollOffsetToesEnd_R/model:RollRollerToesEnd_R/model:RollExtraToesEnd_R/model:RollToesEnd_R/model:RollOffsetToes_R/model:RollRollerToes_R/model:RollExtraToes_R/model:RollToes_R/model:IKAnkleHandle_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R/model:RollHeel_R/model:RollOffsetToesEnd_R/model:RollRollerToesEnd_R/model:RollExtraToesEnd_R/model:RollToesEnd_R/model:RollOffsetToes_R/model:RollRollerToes_R/model:RollExtraToes_R/model:RollToes_R/model:IKLegHandle_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKOffsetLeg_R/model:IKExtraLeg_R/model:IKLeg_R/model:RollOffsetHeel_R/model:RollRollerHeel_R/model:RollExtraHeel_R/model:RollHeel_R/model:RollOffsetToesEnd_R/model:RollRollerToesEnd_R/model:RollExtraToesEnd_R/model:RollToesEnd_R/model:RollOffsetToes_R/model:RollRollerToes_R/model:RollExtraToes_R/model:RollToes_R/model:IKmessureConstrainToLeg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine1_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine1_M/model:IKExtraSpine1_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine1_M/model:IKExtraSpine1_M/model:IKSpine1_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine1_M/model:IKExtraSpine1_M/model:IKSpine1_M/model:IKSpine0AlignTo_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine1_M/model:IKExtraSpine1_M/model:IKSpine1_M/model:IKSpineLocator0_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine1_M/model:IKExtraSpine1_M/model:IKSpine1_M/model:IKStiffOrientSpine1_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine1_M/model:IKExtraSpine1_M/model:IKSpine1_M/model:IKStiffOrientSpine1_M/model:IKSpineLocator1_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine2_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine2_M/model:IKExtraSpine2_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine2_M/model:IKExtraSpine2_M/model:IKSpine2_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine2_M/model:IKExtraSpine2_M/model:IKSpine2_M/model:IKSpine2AlignTo_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine2_M/model:IKExtraSpine2_M/model:IKSpine2_M/model:IKSpine2AlignUnIKTwistToOffset_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine2_M/model:IKExtraSpine2_M/model:IKSpine2_M/model:IKSpine2AlignUnIKTwistToOffset_M/model:IKSpine2AlignUnIKTwistTo_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine2_M/model:IKExtraSpine2_M/model:IKSpine2_M/model:IKSpineLocator3_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine2_M/model:IKExtraSpine2_M/model:IKSpine2_M/model:IKStiffOrientSpine2_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKRootConstraint/model:IKOffsetSpine2_M/model:IKExtraSpine2_M/model:IKSpine2_M/model:IKStiffOrientSpine2_M/model:IKSpineLocator2_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKScalerChest_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKScalerRoot_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKScalerSpine1_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:IKSpineHandle_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:PoleAimLeg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:PoleAimLeg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:PoleOffsetArm_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:PoleOffsetArm_L/model:PoleExtraArm_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:PoleOffsetArm_L/model:PoleExtraArm_L/model:PoleArm_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:PoleOffsetArm_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:PoleOffsetArm_R/model:PoleExtraArm_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:PoleOffsetArm_R/model:PoleExtraArm_R/model:PoleArm_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:PoleOffsetLeg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:PoleOffsetLeg_L/model:PoleExtraLeg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:PoleOffsetLeg_L/model:PoleExtraLeg_L/model:PoleLeg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:PoleOffsetLeg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:PoleOffsetLeg_R/model:PoleExtraLeg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKHandle/model:PoleOffsetLeg_R/model:PoleExtraLeg_R/model:PoleLeg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_L/model:IKMessureFromHip_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_L/model:IKXOffsetHip_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_L/model:IKXOffsetHip_L/model:IKXHip_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_L/model:IKXOffsetHip_L/model:IKXHip_L/model:IKX2Hip_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_L/model:IKXOffsetHip_L/model:IKXHip_L/model:IKXKnee_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_L/model:IKXOffsetHip_L/model:IKXHip_L/model:IKXKnee_L/model:IKX2Knee_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_L/model:IKXOffsetHip_L/model:IKXHip_L/model:IKXKnee_L/model:IKXAnkle_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_L/model:IKXOffsetHip_L/model:IKXHip_L/model:IKXKnee_L/model:IKXAnkle_L/model:IKX2Ankle_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_L/model:IKXOffsetHip_L/model:IKXHip_L/model:IKXKnee_L/model:IKXAnkle_L/model:IKXToes_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_L/model:IKXOffsetHip_L/model:IKXHip_L/model:IKXKnee_L/model:IKXAnkle_L/model:IKXToes_L/model:IKX2Toes_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_L/model:IKXOffsetHip_L/model:IKXHip_L/model:IKXKnee_L/model:IKXAnkle_L/model:IKXToes_L/model:IKXToesEnd_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_L/model:IKXOffsetHip_L/model:IKXHip_L/model:IKXKnee_L/model:IKXAnkle_L/model:IKXToes_L/model:IKXToesEnd_L/model:IKX2ToesEnd_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_L/model:IKXOffsetHip_L/model:IKXHip_L/model:IKXKnee_L/model:PoleAnnotationLeg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_R/model:IKMessureFromHip_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_R/model:IKXOffsetHip_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_R/model:IKXOffsetHip_R/model:IKXHip_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_R/model:IKXOffsetHip_R/model:IKXHip_R/model:IKX2Hip_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_R/model:IKXOffsetHip_R/model:IKXHip_R/model:IKXKnee_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_R/model:IKXOffsetHip_R/model:IKXHip_R/model:IKXKnee_R/model:IKX2Knee_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_R/model:IKXOffsetHip_R/model:IKXHip_R/model:IKXKnee_R/model:IKXAnkle_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_R/model:IKXOffsetHip_R/model:IKXHip_R/model:IKXKnee_R/model:IKXAnkle_R/model:IKX2Ankle_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_R/model:IKXOffsetHip_R/model:IKXHip_R/model:IKXKnee_R/model:IKXAnkle_R/model:IKXToes_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_R/model:IKXOffsetHip_R/model:IKXHip_R/model:IKXKnee_R/model:IKXAnkle_R/model:IKXToes_R/model:IKX2Toes_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_R/model:IKXOffsetHip_R/model:IKXHip_R/model:IKXKnee_R/model:IKXAnkle_R/model:IKXToes_R/model:IKXToesEnd_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_R/model:IKXOffsetHip_R/model:IKXHip_R/model:IKXKnee_R/model:IKXAnkle_R/model:IKXToes_R/model:IKXToesEnd_R/model:IKX2ToesEnd_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintHip_R/model:IKXOffsetHip_R/model:IKXHip_R/model:IKXKnee_R/model:PoleAnnotationLeg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKfake0Spine_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKfake0Spine_M/model:IKfake1Spine_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKfake0Spine_M/model:IKfake1Spine_M/model:IKFake1UpLocSpine_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKfake0Spine_M/model:IKfake1Spine_M/model:IKfake2Spine_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKfake0Spine_M/model:IKfake1Spine_M/model:IKfake2Spine_M/model:IKfake3Spine_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKfake0Spine_M/model:IKSpSpine1_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKfake0Spine_M/model:IKSpSpine1_M/model:IKSpChest_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKfake0Spine_M/model:IKSpSpine1_M/model:IKSpChest_M/model:IKSpChestFollowOffset_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKfake0Spine_M/model:IKSpSpine1_M/model:IKSpSpine1FollowOffset_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKXOffsetRoot_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKXOffsetRoot_M/model:IKXRoot_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKXOffsetRoot_M/model:IKXRoot_M/model:IKX2Root_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKXOffsetRoot_M/model:IKXRoot_M/model:IKXSpine1_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKXOffsetRoot_M/model:IKXRoot_M/model:IKXSpine1_M/model:IKX2Spine1_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKXOffsetRoot_M/model:IKXRoot_M/model:IKXSpine1_M/model:IKXChest_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintRoot_M/model:IKXOffsetRoot_M/model:IKXRoot_M/model:IKXSpine1_M/model:IKXChest_M/model:IKX2Chest_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_L/model:IKMessureFromShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_L/model:IKXOffsetShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_L/model:IKXOffsetShoulder_L/model:IKXShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_L/model:IKXOffsetShoulder_L/model:IKXShoulder_L/model:IKX2Shoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_L/model:IKXOffsetShoulder_L/model:IKXShoulder_L/model:IKXElbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_L/model:IKXOffsetShoulder_L/model:IKXShoulder_L/model:IKXElbow_L/model:IKX2Elbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_L/model:IKXOffsetShoulder_L/model:IKXShoulder_L/model:IKXElbow_L/model:IKXWrist_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_L/model:IKXOffsetShoulder_L/model:IKXShoulder_L/model:IKXElbow_L/model:IKXWrist_L/model:IKX2Wrist_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_L/model:IKXOffsetShoulder_L/model:IKXShoulder_L/model:IKXElbow_L/model:PoleAnnotationArm_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_R/model:IKMessureFromShoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_R/model:IKXOffsetShoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_R/model:IKXOffsetShoulder_R/model:IKXShoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_R/model:IKXOffsetShoulder_R/model:IKXShoulder_R/model:IKX2Shoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_R/model:IKXOffsetShoulder_R/model:IKXShoulder_R/model:IKXElbow_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_R/model:IKXOffsetShoulder_R/model:IKXShoulder_R/model:IKXElbow_R/model:IKX2Elbow_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_R/model:IKXOffsetShoulder_R/model:IKXShoulder_R/model:IKXElbow_R/model:IKXWrist_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_R/model:IKXOffsetShoulder_R/model:IKXShoulder_R/model:IKXElbow_R/model:IKXWrist_R/model:IKX2Wrist_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKParentConstraintShoulder_R/model:IKXOffsetShoulder_R/model:IKXShoulder_R/model:IKXElbow_R/model:PoleAnnotationArm_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKSpSpineOffset_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKSpSpineOffset_M/model:IKSpRoot_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKJoints/model:IKSpSpineOffset_M/model:IKSpRoot_M/model:IKSpRootFollowOffset_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKMessure
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKMessure/model:IKdistanceArm_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKMessure/model:IKdistanceArm_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKMessure/model:IKdistanceLeg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKMessure/model:IKdistanceLeg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKMessure/model:IKmessureLoc1Arm_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKMessure/model:IKmessureLoc1Arm_L/model:IKmessureLoc2Arm_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKMessure/model:IKmessureLoc1Arm_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKMessure/model:IKmessureLoc1Arm_R/model:IKmessureLoc2Arm_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKMessure/model:IKmessureLoc1Leg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKMessure/model:IKmessureLoc1Leg_L/model:IKmessureLoc2Leg_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKMessure/model:IKmessureLoc1Leg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKMessure/model:IKmessureLoc1Leg_R/model:IKmessureLoc2Leg_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKStatic
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKStatic/model:IKOffsetArm_LStatic
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKStatic/model:IKOffsetArm_RStatic
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKStatic/model:PoleOffsetArm_LStatic
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKStatic/model:PoleOffsetArm_RStatic
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKStatic/model:PoleOffsetLeg_LStatic
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:IKSystem/model:IKStatic/model:PoleOffsetLeg_RStatic
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:RootSystem
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:RootSystem/model:LegLockConstrained
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:RootSystem/model:RootOffsetX_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:RootSystem/model:RootOffsetX_M/model:RootExtraX_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:FKIKMixElbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:FKIKMixElbow_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetChest_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetChest_M/model:TwistFollowChest_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetChest_M/model:TwistFollowChest_M/model:UnTwistIKChest_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetElbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetElbow_L/model:TwistFollowElbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetElbow_L/model:TwistFollowElbow_L/model:UnTwistIKElbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetElbow_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetElbow_R/model:TwistFollowElbow_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetElbow_R/model:TwistFollowElbow_R/model:UnTwistIKElbow_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetShoulder_L/model:TwistFollowShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetShoulder_L/model:TwistFollowShoulder_L/model:UnTwistIKShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetShoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetShoulder_R/model:TwistFollowShoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowOffsetShoulder_R/model:TwistFollowShoulder_R/model:UnTwistIKShoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetChest_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetChest_M/model:TwistFollowParentChest_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetChest_M/model:TwistFollowParentChest_M/model:UnTwistChest_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetChest_M/model:TwistFollowParentChest_M/model:UnTwistChest_M/model:TwistBalancerChest_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetChest_M/model:TwistFollowParentChest_M/model:UnTwistChest_M/model:UnTwistEndChest_M
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_L/model:TwistFollowParentElbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_L/model:TwistFollowParentElbow_L/model:UnTwistElbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_L/model:TwistFollowParentElbow_L/model:UnTwistElbow_L/model:TwistBalancerElbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_L/model:TwistFollowParentElbow_L/model:UnTwistElbow_L/model:TwisterElbow0_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_L/model:TwistFollowParentElbow_L/model:UnTwistElbow_L/model:TwisterElbow1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_L/model:TwistFollowParentElbow_L/model:UnTwistElbow_L/model:TwisterElbow2_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_L/model:TwistFollowParentElbow_L/model:UnTwistElbow_L/model:UnTwistEndElbow_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_R/model:TwistFollowParentElbow_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_R/model:TwistFollowParentElbow_R/model:UnTwistElbow_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_R/model:TwistFollowParentElbow_R/model:UnTwistElbow_R/model:TwistBalancerElbow_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_R/model:TwistFollowParentElbow_R/model:UnTwistElbow_R/model:TwisterElbow0_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_R/model:TwistFollowParentElbow_R/model:UnTwistElbow_R/model:TwisterElbow1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_R/model:TwistFollowParentElbow_R/model:UnTwistElbow_R/model:TwisterElbow2_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetElbow_R/model:TwistFollowParentElbow_R/model:UnTwistElbow_R/model:UnTwistEndElbow_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_L/model:TwistFollowParentShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_L/model:TwistFollowParentShoulder_L/model:UnTwistShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_L/model:TwistFollowParentShoulder_L/model:UnTwistShoulder_L/model:TwistBalancerShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_L/model:TwistFollowParentShoulder_L/model:UnTwistShoulder_L/model:TwisterShoulder0_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_L/model:TwistFollowParentShoulder_L/model:UnTwistShoulder_L/model:TwisterShoulder1_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_L/model:TwistFollowParentShoulder_L/model:UnTwistShoulder_L/model:TwisterShoulder2_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_L/model:TwistFollowParentShoulder_L/model:UnTwistShoulder_L/model:UnTwistEndShoulder_L
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_R/model:TwistFollowParentShoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_R/model:TwistFollowParentShoulder_R/model:UnTwistShoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_R/model:TwistFollowParentShoulder_R/model:UnTwistShoulder_R/model:TwistBalancerShoulder_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_R/model:TwistFollowParentShoulder_R/model:UnTwistShoulder_R/model:TwisterShoulder0_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_R/model:TwistFollowParentShoulder_R/model:UnTwistShoulder_R/model:TwisterShoulder1_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_R/model:TwistFollowParentShoulder_R/model:UnTwistShoulder_R/model:TwisterShoulder2_R
+        weight: 1
+      - path: model:Group/model:Main/model:MotionSystem/model:TwistSystem/model:TwistFollowParentOffsetShoulder_R/model:TwistFollowParentShoulder_R/model:UnTwistShoulder_R/model:UnTwistEndShoulder_R
+        weight: 1
+      - path: model:joint1
+        weight: 1
+      - path: model:joint1/model:joint6
+        weight: 1
+      - path: model:joint1/model:joint6/model:joint2
+        weight: 1
+      - path: model:joint1/model:joint6/model:joint2/model:joint3
+        weight: 1
+      - path: model:joint1/model:joint6/model:joint2/model:joint3/model:joint4
+        weight: 1
+      - path: model:joint1/model:joint6/model:joint2/model:joint3/model:joint4/model:joint5
+        weight: 1
+      - path: model:polySurface8
+        weight: 1
+      - path: model:polySurface13
+        weight: 1
+      - path: model:polySurface15
+        weight: 1
+      - path: model:polySurface16
+        weight: 1
+      - path: model:zombi_mixamo2:polySurface1
+        weight: 1
+      - path: model:zombi_mixamo2:polySurface1/model:polySurface9
+        weight: 1
+      - path: model:zombi_mixamo2:polySurface1/model:polySurface11
+        weight: 1
+      - path: model:zombi_mixamo2:polySurface1/model:polySurface12
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.03
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: zombie
+  assetBundleVariant: 

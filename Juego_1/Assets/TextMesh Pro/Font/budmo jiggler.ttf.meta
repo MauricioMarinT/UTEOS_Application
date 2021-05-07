@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3a4a276b0bc1dc1419ac810912bee138
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Budmo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 72c851e6dbed183489ecc0005242ec07, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
