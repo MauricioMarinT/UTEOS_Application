@@ -40,17 +40,28 @@ public class GameManager : MonoBehaviour
     }
 
     public TextMeshProUGUI gameOverText;
+    public GameObject titleScreen ;
+    public GameObject panelScore;
+    public GameObject panelGameOver;
+    public GameObject titleEnd;
 
-        // Start is called before the first frame update
-    void Start()
+
+        // StartGame metodo que inicia la partida
+        //Param difficulty indica el gradod e dificultad
+
+    public void StartGame(int difficulty)
     {
         gameState = GameState.inGame;
+        titleScreen.gameObject.SetActive(false);
+        panelScore.gameObject.SetActive(true);
+        spawnRate /= difficulty;
         StartCoroutine(routine: SpawnTarget());
         score = 0;
         UpdateScore(0);
         
         gameOverText.gameObject.SetActive(false);
     }
+    
     IEnumerator SpawnTarget()
     {
         while (gameState==GameState.inGame)
@@ -70,9 +81,9 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        gameOverText.gameObject.SetActive(true);
-        restartButton.gameObject.SetActive(true);
+        panelGameOver.gameObject.SetActive(true);
         gameState = GameState.gameOver;
+        titleEnd.gameObject.SetActive(true);
     }
 
     public void RestartGame()
