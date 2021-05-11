@@ -11,6 +11,13 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
 
+
+
+    private void Start()
+    {
+        ShowMaxScore();
+    }
+
     public enum GameState
     {
         inGame,
@@ -45,22 +52,30 @@ public class GameManager : MonoBehaviour
     public GameObject panelGameOver;
     public GameObject titleEnd;
 
+    private int numberOfLives = 4;
 
+    public List<GameObject> lives;
         // StartGame metodo que inicia la partida
-        //Param difficulty indica el gradod e dificultad
-
+        //Param difficulty indica el grado de dificultad
     public void StartGame(int difficulty)
     {
         gameState = GameState.inGame;
         titleScreen.gameObject.SetActive(false);
         panelScore.gameObject.SetActive(true);
         spawnRate /= difficulty;
+        numberOfLives -= difficulty;
+        for (int i = 0; i<numberOfLives; i++)
+        {
+            lives[i].SetActive(true);
+        }
         StartCoroutine(routine: SpawnTarget());
         score = 0;
         UpdateScore(0);
-        
         gameOverText.gameObject.SetActive(false);
     }
+   
+    
+    
     
     IEnumerator SpawnTarget()
     {
@@ -76,14 +91,42 @@ public class GameManager : MonoBehaviour
     {
         score += scoreToAdd;
         scoreText.text= "Score; " + score;
-        
     }
 
+    private const string MAX_SCORE = "MAX_SCORE";
+    public void ShowMaxScore()
+    {
+        int maxScore = PlayerPrefs.GetInt("MAX_SCORE",0);
+        scoreText.text = ("Max Score: \n" + maxScore);
+    }
+
+    public void SetMaxScore()
+    {
+        int maxScore = PlayerPrefs.GetInt("MAX_SCORE",0);
+        if (score > maxScore)
+        {
+            PlayerPrefs.SetInt(MAX_SCORE,score);
+        }   
+    }
+    
     public void GameOver()
     {
-        panelGameOver.gameObject.SetActive(true);
-        gameState = GameState.gameOver;
-        titleEnd.gameObject.SetActive(true);
+        numberOfLives--;
+        if (numberOfLives >= 0)
+        {
+            Image heartImage = lives[numberOfLives].GetComponent<Image>();
+            var tempColor = heartImage.color;
+            tempColor.a = 0.3f;
+            heartImage.color = tempColor; 
+        }
+        if (numberOfLives == 0)
+        {
+            SetMaxScore();
+            panelGameOver.gameObject.SetActive(true);
+            gameState = GameState.gameOver;
+            titleEnd.gameObject.SetActive(true); 
+        }
+        
     }
 
     public void RestartGame()
