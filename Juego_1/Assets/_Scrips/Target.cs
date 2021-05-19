@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Target : MonoBehaviour
 {
     private Rigidbody _rigidbody;
     private float minForce = 12, maxForce = 16, maxTorque = 10, xRange = 4, ySpawnPos = 0;
     private GameManager gameManager;
-    
+    private QuizManager quizManager;
+
     [Range(-100,100)]
     public int pointValue;
 
@@ -60,7 +63,7 @@ public class Target : MonoBehaviour
          {
              Destroy(gameObject);
              Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
-             gameManager.UpdateScore(pointValue); 
+             gameManager.UpdateScore(pointValue,3);
          }
          
      }

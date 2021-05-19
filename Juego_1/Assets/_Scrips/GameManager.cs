@@ -28,13 +28,15 @@ public class GameManager : MonoBehaviour
     public GameState gameState;
 
     public List<GameObject> targetPrefabs;
-    private float spawnRate = 1.0f;
+    public float spawnRate = 1.0f;
     public TextMeshProUGUI scoreText;
     public Button restartButton;
+    private QuizManager quizManager;
+   
     
     private int _score;
 
-    private int score
+    public int score
     {
         set
         {
@@ -49,9 +51,11 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI gameOverText;
     public GameObject titleScreen ;
     public GameObject panelScore;
+    public GameObject panelLife;
     public GameObject panelGameOver;
     public GameObject titleEnd;
-
+    public GameObject panelQ;
+    
     private int numberOfLives = 4;
 
     public List<GameObject> lives;
@@ -62,6 +66,8 @@ public class GameManager : MonoBehaviour
         gameState = GameState.inGame;
         titleScreen.gameObject.SetActive(false);
         panelScore.gameObject.SetActive(true);
+        panelLife.gameObject.SetActive(true);
+        panelQ.gameObject.SetActive(false);
         spawnRate /= difficulty;
         numberOfLives -= difficulty;
         for (int i = 0; i<numberOfLives; i++)
@@ -70,7 +76,7 @@ public class GameManager : MonoBehaviour
         }
         StartCoroutine(routine: SpawnTarget());
         score = 0;
-        UpdateScore(0);
+        UpdateScore(0,3);
         gameOverText.gameObject.SetActive(false);
     }
    
@@ -86,11 +92,192 @@ public class GameManager : MonoBehaviour
             Instantiate(targetPrefabs[index]);
         }
     }
-
-    public void UpdateScore(int scoreToAdd)
+    public void PanelHide(int gato)
+    {
+        if (gato==1)
+        {
+            panelQ.gameObject.SetActive(false);
+        }
+    }
+    
+    public void UpdateScore(int scoreToAdd,int cerdo)
     {
         score += scoreToAdd;
         scoreText.text= "Score; " + score;
+       switch (score)
+        {
+            case 10:
+                if (cerdo==1)
+                {
+                    score += 5;
+                    scoreText.text= "Score; " + score;
+                }else if (cerdo==0)
+                {
+                    score -= 4;
+                    scoreText.text= "Score; " + score;
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 20:
+                if (cerdo==1)
+                {
+                    score += 7;
+                    scoreText.text= "Score; " + score;
+                }else if (cerdo==0)
+                {
+                    score -= 5;
+                    scoreText.text= "Score; " + score;
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 30:
+                if (cerdo==1)
+                {
+                    score += 9;
+                    scoreText.text= "Score; " + score;
+                }else if (cerdo==0)
+                {
+                    score -= 7;
+                    scoreText.text= "Score; " + score;
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 40:
+                if (cerdo==1)
+                {
+                    score += 11;
+                    scoreText.text= "Score; " + score;
+                }else if (cerdo==0)
+                {
+                    score -= 9;
+                    scoreText.text= "Score; " + score;
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 50:
+                if (cerdo==1)
+                {
+                    score += 13;
+                    scoreText.text= "Score; " + score;
+                }else if (cerdo==0)
+                {
+                    score -= 11;
+                    scoreText.text= "Score; " + score;
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 60:
+                if (cerdo==1)
+                {
+                    score += 15;
+                    scoreText.text= "Score; " + score;
+                }else if (cerdo==0)
+                {
+                    score -= 13;
+                    scoreText.text= "Score; " + score;
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 70:
+                if (cerdo==1)
+                {
+                    score += 17;
+                    scoreText.text= "Score; " + score;
+                }else if (cerdo==0)
+                {
+                    score -= 13;
+                    scoreText.text= "Score; " + score;
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 80:
+                if (cerdo==1)
+                {
+                    score += 21;
+                    scoreText.text= "Score; " + score;
+                }else if (cerdo==0)
+                {
+                    score -= 15;
+                    scoreText.text= "Score; " + score;
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 90:
+                if (cerdo==1)
+                {
+                    score += 13;
+                    scoreText.text= "Score; " + score;
+                }else if (cerdo==0)
+                {
+                    score -= 11;
+                    scoreText.text= "Score; " + score;
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 100:
+                if (cerdo==1)
+                {
+                    score += 27;
+                    scoreText.text= "Score; " + score;
+                }else if (cerdo==0)
+                {
+                    score -= 19;
+                    scoreText.text= "Score; " + score;
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+        }
+       
     }
 
     private const string MAX_SCORE = "MAX_SCORE";
@@ -133,4 +320,7 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    
+    
+    
 }
