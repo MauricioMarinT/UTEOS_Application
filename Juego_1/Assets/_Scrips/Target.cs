@@ -8,7 +8,7 @@ using UnityEngine.SocialPlatforms.Impl;
 public class Target : MonoBehaviour
 {
     private Rigidbody _rigidbody;
-    private float minForce = 12, maxForce = 16, maxTorque = 10, xRange = 4, ySpawnPos = 0;
+    private float minForce = 12, maxForce = 16, maxTorque = 15, xRange = 2, ySpawnPos = 0;
     private GameManager gameManager;
     private QuizManager quizManager;
 

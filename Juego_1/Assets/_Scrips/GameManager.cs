@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     public float spawnRate = 1.0f;
     public TextMeshProUGUI scoreText;
     public Button restartButton;
+    public Button exitButton;
     private QuizManager quizManager;
    
     
@@ -55,6 +56,7 @@ public class GameManager : MonoBehaviour
     public GameObject panelGameOver;
     public GameObject titleEnd;
     public GameObject panelQ;
+    public GameObject panelS;
     
     private int numberOfLives = 4;
 
@@ -65,6 +67,7 @@ public class GameManager : MonoBehaviour
     {
         gameState = GameState.inGame;
         titleScreen.gameObject.SetActive(false);
+        panelS.gameObject.SetActive(false);
         panelScore.gameObject.SetActive(true);
         panelLife.gameObject.SetActive(true);
         panelQ.gameObject.SetActive(false);
@@ -295,7 +298,12 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetInt(MAX_SCORE,score);
         }   
     }
-    
+
+    public void Salir()
+    {
+        Application.Quit();
+    }
+
     public void GameOver()
     {
         numberOfLives--;
