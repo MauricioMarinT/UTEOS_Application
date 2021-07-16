@@ -109,7 +109,7 @@ public class GameManager : MonoBehaviour
         scoreText.text= "Score; " + score;
        switch (score)
         {
-            case 10:
+            case 15:
                 if (cerdo==1)
                 {
                     score += 5;
@@ -126,7 +126,7 @@ public class GameManager : MonoBehaviour
                     score += 0;
                 }
                 break;
-            case 20:
+            case 30:
                 if (cerdo==1)
                 {
                     score += 7;
@@ -143,48 +143,14 @@ public class GameManager : MonoBehaviour
                     score += 0;
                 }
                 break;
-            case 30:
+            case 45:
                 if (cerdo==1)
                 {
-                    score += 9;
+                    score += 15;
                     scoreText.text= "Score; " + score;
                 }else if (cerdo==0)
                 {
-                    score -= 7;
-                    scoreText.text= "Score; " + score;
-                }
-                else
-                {
-                    panelQ.gameObject.SetActive(true);
-                    Time.timeScale = 0f;
-                    score += 0;
-                }
-                break;
-            case 40:
-                if (cerdo==1)
-                {
-                    score += 11;
-                    scoreText.text= "Score; " + score;
-                }else if (cerdo==0)
-                {
-                    score -= 9;
-                    scoreText.text= "Score; " + score;
-                }
-                else
-                {
-                    panelQ.gameObject.SetActive(true);
-                    Time.timeScale = 0f;
-                    score += 0;
-                }
-                break;
-            case 50:
-                if (cerdo==1)
-                {
-                    score += 13;
-                    scoreText.text= "Score; " + score;
-                }else if (cerdo==0)
-                {
-                    score -= 11;
+                    score -= 10;
                     scoreText.text= "Score; " + score;
                 }
                 else
@@ -197,41 +163,7 @@ public class GameManager : MonoBehaviour
             case 60:
                 if (cerdo==1)
                 {
-                    score += 15;
-                    scoreText.text= "Score; " + score;
-                }else if (cerdo==0)
-                {
-                    score -= 13;
-                    scoreText.text= "Score; " + score;
-                }
-                else
-                {
-                    panelQ.gameObject.SetActive(true);
-                    Time.timeScale = 0f;
-                    score += 0;
-                }
-                break;
-            case 70:
-                if (cerdo==1)
-                {
-                    score += 17;
-                    scoreText.text= "Score; " + score;
-                }else if (cerdo==0)
-                {
-                    score -= 13;
-                    scoreText.text= "Score; " + score;
-                }
-                else
-                {
-                    panelQ.gameObject.SetActive(true);
-                    Time.timeScale = 0f;
-                    score += 0;
-                }
-                break;
-            case 80:
-                if (cerdo==1)
-                {
-                    score += 21;
+                    score += 30;
                     scoreText.text= "Score; " + score;
                 }else if (cerdo==0)
                 {
@@ -245,14 +177,14 @@ public class GameManager : MonoBehaviour
                     score += 0;
                 }
                 break;
-            case 90:
+            case 85:
                 if (cerdo==1)
                 {
-                    score += 13;
+                    score += 50;
                     scoreText.text= "Score; " + score;
                 }else if (cerdo==0)
                 {
-                    score -= 11;
+                    score -= 20;
                     scoreText.text= "Score; " + score;
                 }
                 else
@@ -265,11 +197,79 @@ public class GameManager : MonoBehaviour
             case 100:
                 if (cerdo==1)
                 {
-                    score += 27;
+                    score += 80;
                     scoreText.text= "Score; " + score;
                 }else if (cerdo==0)
                 {
-                    score -= 19;
+                    score -= 30;
+                    scoreText.text= "Score; " + score;
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 250:
+                if (cerdo==1)
+                {
+                    score += 100;
+                    scoreText.text= "Score; " + score;
+                }else if (cerdo==0)
+                {
+                    score -= 50;
+                    scoreText.text= "Score; " + score;
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 300:
+                if (cerdo==1)
+                {
+                    score += 400;
+                    scoreText.text= "Score; " + score;
+                }else if (cerdo==0)
+                {
+                    score -= 80;
+                    scoreText.text= "Score; " + score;
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 400:
+                if (cerdo==1)
+                {
+                    score += 500;
+                    scoreText.text= "Score; " + score;
+                }else if (cerdo==0)
+                {
+                    score -= 90;
+                    scoreText.text= "Score; " + score;
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 500:
+                if (cerdo==1)
+                {
+                    score += 1000;
+                    scoreText.text= "Score; " + score;
+                }else if (cerdo==0)
+                {
+                    score -= 100;
                     scoreText.text= "Score; " + score;
                 }
                 else

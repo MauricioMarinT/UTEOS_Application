@@ -57,18 +57,18 @@ public class Target : MonoBehaviour
      //Genera una posicion aleatoria en 3D
      //</summary>
      //<returns>Posicion aleatoria en 3d Eje z = 0</returns>
-     private void OnMouseOver()
+    private void OnMouseOver()
      {
          if (gameManager.gameState==GameManager.GameState.inGame)
          {
              Destroy(gameObject);
              Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
              gameManager.UpdateScore(pointValue,3);
+             Input.GetMouseButtonUp(0);
          }
-         
      }
 
-     private void OnTriggerEnter(Collider other)
+  private void OnTriggerEnter(Collider other)
      {
          if (other.CompareTag("KillZone"))
          {
