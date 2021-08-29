@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UIElements;
+using Cursor = UnityEngine.Cursor;
 
 public class Target : MonoBehaviour
 {
@@ -11,7 +14,7 @@ public class Target : MonoBehaviour
     private float minForce = 12, maxForce = 16, maxTorque = 15, xRange = 2, ySpawnPos = 0;
     private GameManager gameManager;
     private QuizManager quizManager;
-
+  
     [Range(-100,100)]
     public int pointValue;
 
@@ -57,18 +60,19 @@ public class Target : MonoBehaviour
      //Genera una posicion aleatoria en 3D
      //</summary>
      //<returns>Posicion aleatoria en 3d Eje z = 0</returns>
-    private void OnMouseOver()
+     private void OnMouseOver()
      {
-         if (gameManager.gameState==GameManager.GameState.inGame)
+         if (gameManager.gameState == GameManager.GameState.inGame)
          {
              Destroy(gameObject);
              Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
-             gameManager.UpdateScore(pointValue,3);
-             Input.GetMouseButtonUp(0);
+             gameManager.UpdateScore(pointValue, 3);
          }
      }
 
-  private void OnTriggerEnter(Collider other)
+     
+
+     private void OnTriggerEnter(Collider other)
      {
          if (other.CompareTag("KillZone"))
          {

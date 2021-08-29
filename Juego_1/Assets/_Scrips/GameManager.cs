@@ -57,6 +57,8 @@ public class GameManager : MonoBehaviour
     public GameObject titleEnd;
     public GameObject panelQ;
     public GameObject panelS;
+    public GameObject toasty;
+    public GameObject dogDuck;
     
     private int numberOfLives = 4;
 
@@ -82,10 +84,6 @@ public class GameManager : MonoBehaviour
         UpdateScore(0,3);
         gameOverText.gameObject.SetActive(false);
     }
-   
-    
-    
-    
     IEnumerator SpawnTarget()
     {
         while (gameState==GameState.inGame)
@@ -102,6 +100,18 @@ public class GameManager : MonoBehaviour
             panelQ.gameObject.SetActive(false);
         }
     }
+
+    IEnumerator toastyhide()
+    {
+        yield return new WaitForSeconds(1);
+        toasty.gameObject.SetActive(false);
+    }
+    
+    IEnumerator dogDuckhide()
+    {
+        yield return new WaitForSeconds(1);
+        dogDuck.gameObject.SetActive(false);
+    }
     
     public void UpdateScore(int scoreToAdd,int cerdo)
     {
@@ -114,44 +124,15 @@ public class GameManager : MonoBehaviour
                 {
                     score += 5;
                     scoreText.text= "Score; " + score;
-                }else if (cerdo==0)
-                {
-                    score -= 4;
-                    scoreText.text= "Score; " + score;
-                }
-                else
-                {
-                    panelQ.gameObject.SetActive(true);
-                    Time.timeScale = 0f;
-                    score += 0;
-                }
-                break;
-            case 30:
-                if (cerdo==1)
-                {
-                    score += 7;
-                    scoreText.text= "Score; " + score;
-                }else if (cerdo==0)
-                {
-                    score -= 5;
-                    scoreText.text= "Score; " + score;
-                }
-                else
-                {
-                    panelQ.gameObject.SetActive(true);
-                    Time.timeScale = 0f;
-                    score += 0;
-                }
-                break;
-            case 45:
-                if (cerdo==1)
-                {
-                    score += 15;
-                    scoreText.text= "Score; " + score;
+                    gameObject.SetActive(true);
+                    toasty.gameObject.SetActive(true);
+                    StartCoroutine(toastyhide());
                 }else if (cerdo==0)
                 {
                     score -= 10;
                     scoreText.text= "Score; " + score;
+                    dogDuck.gameObject.SetActive(true);
+                    StartCoroutine(dogDuckhide());
                 }
                 else
                 {
@@ -160,32 +141,19 @@ public class GameManager : MonoBehaviour
                     score += 0;
                 }
                 break;
-            case 60:
+            case 40:
                 if (cerdo==1)
                 {
-                    score += 30;
+                    score += 10;
                     scoreText.text= "Score; " + score;
-                }else if (cerdo==0)
-                {
-                    score -= 15;
-                    scoreText.text= "Score; " + score;
-                }
-                else
-                {
-                    panelQ.gameObject.SetActive(true);
-                    Time.timeScale = 0f;
-                    score += 0;
-                }
-                break;
-            case 85:
-                if (cerdo==1)
-                {
-                    score += 50;
-                    scoreText.text= "Score; " + score;
+                    toasty.gameObject.SetActive(true);
+                    StartCoroutine(toastyhide());
                 }else if (cerdo==0)
                 {
                     score -= 20;
                     scoreText.text= "Score; " + score;
+                    dogDuck.gameObject.SetActive(true);
+                    StartCoroutine(dogDuckhide());
                 }
                 else
                 {
@@ -194,15 +162,61 @@ public class GameManager : MonoBehaviour
                     score += 0;
                 }
                 break;
-            case 100:
+            case 70:
                 if (cerdo==1)
                 {
-                    score += 80;
+                    score += 25;
                     scoreText.text= "Score; " + score;
+                    toasty.gameObject.SetActive(true);
+                    StartCoroutine(toastyhide());
+                }else if (cerdo==0)
+                {
+                    score -= 20;
+                    scoreText.text= "Score; " + score;
+                    dogDuck.gameObject.SetActive(true);
+                    StartCoroutine(dogDuckhide());
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 110:
+                if (cerdo==1)
+                {
+                    score += 30;
+                    scoreText.text= "Score; " + score;
+                    toasty.gameObject.SetActive(true);
+                    StartCoroutine(toastyhide());
+                }else if (cerdo==0)
+                {
+                    score -= 25;
+                    scoreText.text= "Score; " + score;
+                    dogDuck.gameObject.SetActive(true);
+                    StartCoroutine(dogDuckhide());
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 170:
+                if (cerdo==1)
+                {
+                    score += 50;
+                    scoreText.text= "Score; " + score;
+                    toasty.gameObject.SetActive(true);
+                    StartCoroutine(toastyhide());
                 }else if (cerdo==0)
                 {
                     score -= 30;
                     scoreText.text= "Score; " + score;
+                    dogDuck.gameObject.SetActive(true);
+                    StartCoroutine(dogDuckhide());
                 }
                 else
                 {
@@ -211,15 +225,40 @@ public class GameManager : MonoBehaviour
                     score += 0;
                 }
                 break;
-            case 250:
+            case 230:
+                if (cerdo==1)
+                {
+                    score += 80;
+                    scoreText.text= "Score; " + score;
+                    toasty.gameObject.SetActive(true);
+                    StartCoroutine(toastyhide());
+                }else if (cerdo==0)
+                {
+                    score -= 40;
+                    scoreText.text= "Score; " + score;
+                    dogDuck.gameObject.SetActive(true);
+                    StartCoroutine(dogDuckhide());
+                }
+                else
+                {
+                    panelQ.gameObject.SetActive(true);
+                    Time.timeScale = 0f;
+                    score += 0;
+                }
+                break;
+            case 340:
                 if (cerdo==1)
                 {
                     score += 100;
                     scoreText.text= "Score; " + score;
+                    toasty.gameObject.SetActive(true);
+                    StartCoroutine(toastyhide());
                 }else if (cerdo==0)
                 {
                     score -= 50;
                     scoreText.text= "Score; " + score;
+                    dogDuck.gameObject.SetActive(true);
+                    StartCoroutine(dogDuckhide());
                 }
                 else
                 {
@@ -228,15 +267,20 @@ public class GameManager : MonoBehaviour
                     score += 0;
                 }
                 break;
-            case 300:
+            case 490:
                 if (cerdo==1)
                 {
                     score += 400;
                     scoreText.text= "Score; " + score;
+                    toasty.gameObject.SetActive(true);
+                    StartCoroutine(toastyhide());
+                    spawnRate /= 2;
                 }else if (cerdo==0)
                 {
                     score -= 80;
                     scoreText.text= "Score; " + score;
+                    dogDuck.gameObject.SetActive(true);
+                    StartCoroutine(dogDuckhide());
                 }
                 else
                 {
@@ -245,15 +289,19 @@ public class GameManager : MonoBehaviour
                     score += 0;
                 }
                 break;
-            case 400:
+            case 900:
                 if (cerdo==1)
                 {
                     score += 500;
                     scoreText.text= "Score; " + score;
+                    toasty.gameObject.SetActive(true);
+                    StartCoroutine(toastyhide());
                 }else if (cerdo==0)
                 {
                     score -= 90;
                     scoreText.text= "Score; " + score;
+                    dogDuck.gameObject.SetActive(true);
+                    StartCoroutine(dogDuckhide());
                 }
                 else
                 {
@@ -262,15 +310,20 @@ public class GameManager : MonoBehaviour
                     score += 0;
                 }
                 break;
-            case 500:
+            case 1500:
                 if (cerdo==1)
                 {
                     score += 1000;
                     scoreText.text= "Score; " + score;
+                    toasty.gameObject.SetActive(true);
+                    StartCoroutine(toastyhide());
+                    spawnRate /= 4;
                 }else if (cerdo==0)
                 {
                     score -= 100;
                     scoreText.text= "Score; " + score;
+                    dogDuck.gameObject.SetActive(true);
+                    StartCoroutine(dogDuckhide());
                 }
                 else
                 {
